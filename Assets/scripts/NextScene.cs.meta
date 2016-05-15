@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c869e0601d16b104786fb2d834113df0
+timeCreated: 1463065105
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hero: {instanceID: 0}
+  - doorClose: {fileID: 170764, guid: bd7c55506a7ba0e4f96af662bcdf4894, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

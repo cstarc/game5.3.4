@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 33af08f1a78a45544adda667efcf9a70
+timeCreated: 1463066440
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\u94F6\u6708"
+    21300002: 'main_page #060019_1'
+    21300004: 'main_page #060019_2'
+    21300006: 'main_page #060019_3'
+    21300008: "\u5361\u7F57\u5C14"
+    21300010: 'main_page #060019_5'
+    21300012: 'main_page #060019_6'
+    21300014: 'main_page #060019_7'
+    21300016: 'main_page #060019_8'
+    21300018: 'main_page #060019_9'
+    21300020: "\u827E\u745E\u65AF"
+    21300022: 'main_page #060019_11'
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "\u94F6\u6708"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 173
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+    - name: 'main_page #060019_1'
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 141
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 35}
+        - {x: -28, y: -35}
+        - {x: 28, y: -35}
+        - {x: 28, y: 35}
+    - name: 'main_page #060019_2'
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 141
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 35}
+        - {x: -28, y: -35}
+        - {x: 28, y: -35}
+        - {x: 28, y: 35}
+    - name: 'main_page #060019_3'
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 141
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 34.5}
+        - {x: -29, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: 34.5}
+    - name: "\u5361\u7F57\u5C14"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+    - name: 'main_page #060019_5'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 102
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 35}
+        - {x: -28, y: -35}
+        - {x: 28, y: -35}
+        - {x: 28, y: 35}
+    - name: 'main_page #060019_6'
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -64}
+        - {x: 41, y: -64}
+        - {x: 41, y: 31}
+        - {x: 40, y: 64}
+        - {x: -39, y: 64}
+        - {x: -41, y: 30}
+    - name: 'main_page #060019_7'
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -64}
+        - {x: 41, y: -64}
+        - {x: 41, y: 31}
+        - {x: 40, y: 64}
+        - {x: -39, y: 64}
+        - {x: -41, y: 30}
+    - name: 'main_page #060019_8'
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -64}
+        - {x: 41, y: -64}
+        - {x: 41, y: 31}
+        - {x: 40, y: 64}
+        - {x: -39, y: 64}
+        - {x: -41, y: 30}
+    - name: 'main_page #060019_9'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 73
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "\u827E\u745E\u65AF"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+    - name: 'main_page #060019_11'
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 16
+        width: 89
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

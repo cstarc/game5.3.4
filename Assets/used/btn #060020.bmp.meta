@@ -1,0 +1,1702 @@
+fileFormatVersion: 2
+guid: 32c32aa5d3419774c93280635dd41c00
+timeCreated: 1463030639
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 'btn #060020_0'
+    21300002: 'btn #060020_1'
+    21300004: 'btn #060020_2'
+    21300006: 'btn #060020_3'
+    21300008: 'btn #060020_4'
+    21300010: 'btn #060020_5'
+    21300012: 'btn #060020_6'
+    21300014: 'btn #060020_7'
+    21300016: 'btn #060020_8'
+    21300018: 'btn #060020_9'
+    21300020: 'btn #060020_10'
+    21300022: 'btn #060020_11'
+    21300024: 'btn #060020_12'
+    21300026: 'btn #060020_13'
+    21300028: 'btn #060020_14'
+    21300030: 'btn #060020_15'
+    21300032: 'btn #060020_16'
+    21300034: 'btn #060020_17'
+    21300036: 'btn #060020_18'
+    21300038: 'btn #060020_19'
+    21300040: 'btn #060020_20'
+    21300042: 'btn #060020_21'
+    21300044: 'btn #060020_22'
+    21300046: 'btn #060020_23'
+    21300048: 'btn #060020_24'
+    21300050: 'btn #060020_25'
+    21300052: 'btn #060020_26'
+    21300054: 'btn #060020_27'
+    21300056: 'btn #060020_28'
+    21300058: 'btn #060020_29'
+    21300060: 'btn #060020_30'
+    21300062: 'btn #060020_31'
+    21300064: 'btn #060020_32'
+    21300066: 'btn #060020_33'
+    21300068: 'btn #060020_34'
+    21300070: 'btn #060020_35'
+    21300072: 'btn #060020_36'
+    21300074: 'btn #060020_37'
+    21300076: 'btn #060020_38'
+    21300078: 'btn #060020_39'
+    21300080: 'btn #060020_40'
+    21300082: 'btn #060020_41'
+    21300084: 'btn #060020_42'
+    21300086: 'btn #060020_43'
+    21300088: 'btn #060020_44'
+    21300090: 'btn #060020_45'
+    21300092: 'btn #060020_46'
+    21300094: 'btn #060020_47'
+    21300096: 'btn #060020_48'
+    21300098: 'btn #060020_49'
+    21300100: 'btn #060020_50'
+    21300102: 'btn #060020_51'
+    21300104: 'btn #060020_52'
+    21300106: 'btn #060020_53'
+    21300108: 'btn #060020_54'
+    21300110: 'btn #060020_55'
+    21300112: 'btn #060020_56'
+    21300114: 'btn #060020_57'
+    21300116: 'btn #060020_58'
+    21300118: 'btn #060020_59'
+    21300120: 'btn #060020_60'
+    21300122: 'btn #060020_61'
+    21300124: 'btn #060020_62'
+    21300126: 'btn #060020_63'
+    21300128: 'btn #060020_64'
+    21300130: 'btn #060020_65'
+    21300132: 'btn #060020_66'
+    21300134: 'btn #060020_67'
+    21300136: 'btn #060020_68'
+    21300138: 'btn #060020_69'
+    21300140: 'btn #060020_70'
+    21300142: 'btn #060020_71'
+    21300144: 'btn #060020_72'
+    21300146: 'btn #060020_73'
+    21300148: 'btn #060020_74'
+    21300150: 'btn #060020_75'
+    21300152: 'btn #060020_76'
+    21300154: 'btn #060020_77'
+    21300156: 'btn #060020_78'
+    21300158: 'btn #060020_79'
+    21300160: 'btn #060020_80'
+    21300162: 'btn #060020_81'
+    21300164: 'btn #060020_82'
+    21300166: 'btn #060020_83'
+    21300168: 'btn #060020_84'
+    21300170: 'btn #060020_85'
+    21300172: 'btn #060020_86'
+    21300174: 'btn #060020_87'
+    21300176: 'btn #060020_88'
+    21300178: 'btn #060020_89'
+    21300180: 'btn #060020_90'
+    21300182: 'btn #060020_91'
+    21300184: 'btn #060020_92'
+    21300186: 'btn #060020_93'
+    21300188: 'btn #060020_94'
+    21300190: 'btn #060020_95'
+    21300192: 'btn #060020_96'
+    21300194: 'btn #060020_97'
+    21300196: 'btn #060020_98'
+    21300198: 'btn #060020_99'
+    21300200: 'btn #060020_100'
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 'btn #060020_0'
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 467
+        width: 119
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 20.5}
+        - {x: -59.5, y: 6.5}
+        - {x: -59.5, y: -5.5}
+        - {x: -52.5, y: -20.5}
+        - {x: 46.5, y: -20.5}
+        - {x: 59.5, y: -6.5}
+        - {x: 59.5, y: 5.5}
+        - {x: 45.5, y: 20.5}
+    - name: 'btn #060020_1'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 467
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 22.5}
+        - {x: -58.5, y: 13.5}
+        - {x: -58.5, y: -11.5}
+        - {x: -54.5, y: -22.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 58.5, y: -11.5}
+        - {x: 58.5, y: 17.5}
+        - {x: 57.5, y: 22.5}
+    - name: 'btn #060020_2'
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 467
+        width: 117
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 20.5}
+        - {x: -58.5, y: 11.5}
+        - {x: -58.5, y: -7.5}
+        - {x: -53.5, y: -20.5}
+        - {x: 50.5, y: -20.5}
+        - {x: 58.5, y: -11.5}
+        - {x: 58.5, y: 19.5}
+        - {x: 57.5, y: 20.5}
+    - name: 'btn #060020_3'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 479
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 16.5}
+        - {x: -50, y: 8.5}
+        - {x: -50, y: -5.5}
+        - {x: -39, y: -16.5}
+        - {x: 39, y: -16.5}
+        - {x: 50, y: -6.5}
+        - {x: 50, y: 14.5}
+        - {x: 40, y: 16.5}
+    - name: 'btn #060020_4'
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_5'
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 479
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_6'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 467
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_7'
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 467
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_8'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 142
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 20}
+        - {x: -71, y: 17}
+        - {x: -71, y: -10}
+        - {x: -66, y: -20}
+        - {x: 68, y: -20}
+        - {x: 71, y: -11}
+        - {x: 71, y: 16}
+        - {x: 66, y: 20}
+    - name: 'btn #060020_9'
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 434
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_10'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 434
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_11'
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 428
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 16}
+        - {x: -49, y: 8}
+        - {x: -49, y: -5}
+        - {x: -42, y: -16}
+        - {x: 39, y: -16}
+        - {x: 49, y: -4}
+        - {x: 49, y: 2}
+        - {x: 35, y: 16}
+    - name: 'btn #060020_12'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 29}
+        - {x: -45, y: 26}
+        - {x: -48, y: 14}
+        - {x: -48, y: -18}
+        - {x: -26, y: -29}
+        - {x: 29, y: -29}
+        - {x: 45, y: -26}
+        - {x: 48, y: -18}
+        - {x: 48, y: 19}
+        - {x: 27, y: 29}
+    - name: 'btn #060020_13'
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 393
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_14'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 393
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_15'
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 393
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_16'
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 390
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_17'
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 390
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_18'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 392
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_19'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 356
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 16.5}
+        - {x: -50, y: 8.5}
+        - {x: -50, y: -5.5}
+        - {x: -39, y: -16.5}
+        - {x: 39, y: -16.5}
+        - {x: 50, y: -6.5}
+        - {x: 50, y: 14.5}
+        - {x: 40, y: 16.5}
+    - name: 'btn #060020_20'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 356
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 16}
+        - {x: -49, y: 8}
+        - {x: -49, y: -5}
+        - {x: -42, y: -16}
+        - {x: 39, y: -16}
+        - {x: 49, y: -4}
+        - {x: 49, y: 2}
+        - {x: 35, y: 16}
+    - name: 'btn #060020_21'
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 357
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16}
+        - {x: -43, y: -16}
+        - {x: 43, y: -16}
+        - {x: 43, y: 16}
+    - name: 'btn #060020_22'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 355
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 17}
+        - {x: -40, y: 15}
+        - {x: -40, y: -15}
+        - {x: -38, y: -17}
+        - {x: 38, y: -17}
+        - {x: 40, y: -15}
+        - {x: 40, y: 15}
+        - {x: 38, y: 17}
+    - name: 'btn #060020_23'
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 366
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 29}
+        - {x: -45, y: 26}
+        - {x: -48, y: 14}
+        - {x: -48, y: -18}
+        - {x: -26, y: -29}
+        - {x: 29, y: -29}
+        - {x: 45, y: -26}
+        - {x: 48, y: -18}
+        - {x: 48, y: 19}
+        - {x: 27, y: 29}
+    - name: 'btn #060020_25'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 320
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 17}
+        - {x: -40, y: 15}
+        - {x: -40, y: -15}
+        - {x: -38, y: -17}
+        - {x: 38, y: -17}
+        - {x: 40, y: -15}
+        - {x: 40, y: 15}
+        - {x: 38, y: 17}
+    - name: 'btn #060020_26'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_27'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_28'
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_29'
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_30'
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_31'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_32'
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_33'
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 315
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_34'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 39}
+        - {x: -33, y: -39}
+        - {x: 33, y: -39}
+        - {x: 33, y: 39}
+      - - {x: -28, y: 33}
+        - {x: 27, y: 34}
+        - {x: 28, y: -33}
+        - {x: -27, y: -33}
+    - name: 'btn #060020_35'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 274
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_36'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 285
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 17}
+        - {x: -40, y: 15}
+        - {x: -40, y: -15}
+        - {x: -38, y: -17}
+        - {x: 38, y: -17}
+        - {x: 40, y: -15}
+        - {x: 40, y: 15}
+        - {x: 38, y: 17}
+    - name: 'btn #060020_37'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 274
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_38'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 281
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 22, y: -16}
+        - {x: 25, y: -14}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_39'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 281
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 22, y: -16}
+        - {x: 25, y: -14}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_40'
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 281
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -25, y: 14}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_41'
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 281
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -25, y: 14}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_42'
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 281
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -25, y: 14}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_43'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 245
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_44'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 246
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 19}
+        - {x: -27, y: -19}
+        - {x: 27, y: -19}
+        - {x: 27, y: 19}
+    - name: 'btn #060020_45'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 233
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_46'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 248
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_47'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 248
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_48'
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 248
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 25, y: -16}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_49'
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 248
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: 22, y: -16}
+        - {x: 25, y: -14}
+        - {x: 25, y: 16}
+    - name: 'btn #060020_50'
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 250
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_51'
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 257
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_52'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 88
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 16.5}
+        - {x: -44, y: -16.5}
+        - {x: 44, y: -16.5}
+        - {x: 44, y: 16.5}
+    - name: 'btn #060020_53'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 209
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 18}
+        - {x: -26, y: -18}
+        - {x: 26, y: -18}
+        - {x: 26, y: 18}
+    - name: 'btn #060020_54'
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 217
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_55'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 192
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_56'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 208
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_57'
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 208
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_58'
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 208
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_59'
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 208
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_60'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_61'
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 217
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_62'
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 211
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 18}
+        - {x: -18, y: -18}
+        - {x: 18, y: -18}
+        - {x: 18, y: 18}
+      - - {x: -14, y: 11}
+        - {x: 11, y: 14}
+        - {x: 14, y: -11}
+        - {x: -11, y: -14}
+    - name: 'btn #060020_63'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16}
+        - {x: -43, y: -16}
+        - {x: 43, y: -16}
+        - {x: 43, y: 16}
+    - name: 'btn #060020_64'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 172
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 18}
+        - {x: -26, y: -18}
+        - {x: 26, y: -18}
+        - {x: 26, y: 18}
+    - name: 'btn #060020_65'
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_66'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_67'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 167
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_68'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 166
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+      - - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+        - {x: -12, y: -12}
+    - name: 'btn #060020_69'
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 176
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_70'
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 176
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_71'
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 176
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_72'
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 176
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_73'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 135
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 18}
+        - {x: -26, y: -18}
+        - {x: 26, y: -18}
+        - {x: 26, y: 18}
+    - name: 'btn #060020_74'
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_75'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 126
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_76'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 125
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+      - - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+        - {x: -12, y: -12}
+    - name: 'btn #060020_77'
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 145
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_78'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 153
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_79'
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 153
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_80'
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 153
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_81'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 88
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 16.5}
+        - {x: -44, y: -16.5}
+        - {x: 44, y: -16.5}
+        - {x: 44, y: 16.5}
+    - name: 'btn #060020_82'
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 99
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 17}
+        - {x: -23, y: -17}
+        - {x: 23, y: -17}
+        - {x: 23, y: 17}
+    - name: 'btn #060020_83'
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 109
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_84'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 110
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_85'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 85
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_86'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+      - - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+        - {x: -12, y: -12}
+    - name: 'btn #060020_87'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16}
+        - {x: -43, y: -16}
+        - {x: 43, y: -16}
+        - {x: 43, y: 16}
+    - name: 'btn #060020_88'
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 62
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 17}
+        - {x: -23, y: -17}
+        - {x: 23, y: -17}
+        - {x: 23, y: 17}
+    - name: 'btn #060020_89'
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 71
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_90'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 69
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_91'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16}
+        - {x: -43, y: -16}
+        - {x: 43, y: -16}
+        - {x: 43, y: 16}
+    - name: 'btn #060020_92'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 24
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 18}
+        - {x: -24, y: -18}
+        - {x: 24, y: -18}
+        - {x: 24, y: 18}
+    - name: 'btn #060020_93'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 28
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: 'btn #060020_94'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 44
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_95'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 43
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+      - - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+        - {x: -12, y: -12}
+    - name: 'btn #060020_96'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16}
+        - {x: -43, y: -16}
+        - {x: 43, y: -16}
+        - {x: 43, y: 16}
+    - name: 'btn #060020_97'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_98'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'btn #060020_99'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    - name: 'btn #060020_100'
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -17}
+        - {x: -10, y: -19}
+        - {x: 12, y: -19}
+        - {x: 19, y: -15}
+        - {x: 19, y: 14}
+        - {x: 15, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

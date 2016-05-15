@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 69ef9c10e28cc1547ba3da0a3e06f798
+timeCreated: 1461942949
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 'map_things_3.0 #07016_0'
+    21300002: 'map_things_3.0 #07016_1'
+    21300004: 'map_things_3.0 #07016_2'
+    21300006: 'map_things_3.0 #07016_3'
+    21300008: 'map_things_3.0 #07016_4'
+    21300010: 'map_things_3.0 #07016_5'
+    21300012: 'map_things_3.0 #07016_6'
+    21300014: 'map_things_3.0 #07016_7'
+    21300016: 'map_things_3.0 #07016_8'
+    21300018: 'map_things_3.0 #07016_9'
+    21300020: 'map_things_3.0 #07016_10'
+    21300022: 'map_things_3.0 #07016_11'
+    21300024: 'map_things_3.0 #07016_12'
+    21300026: 'map_things_3.0 #07016_13'
+    21300028: 'map_things_3.0 #07016_14'
+    21300030: 'map_things_3.0 #07016_15'
+    21300032: 'map_things_3.0 #07016_16'
+    21300034: 'map_things_3.0 #07016_17'
+    21300036: 'map_things_3.0 #07016_18'
+    21300038: 'map_things_3.0 #07016_19'
+    21300040: 'map_things_3.0 #07016_20'
+    21300042: 'map_things_3.0 #07016_21'
+    21300044: 'map_things_3.0 #07016_22'
+    21300046: 'map_things_3.0 #07016_23'
+    21300048: 'map_things_3.0 #07016_24'
+    21300050: 'map_things_3.0 #07016_25'
+    21300052: 'map_things_3.0 #07016_26'
+    21300054: 'map_things_3.0 #07016_27'
+    21300056: 'map_things_3.0 #07016_28'
+    21300058: 'map_things_3.0 #07016_29'
+    21300060: 'map_things_3.0 #07016_30'
+    21300062: 'map_things_3.0 #07016_31'
+    21300064: 'map_things_3.0 #07016_32'
+    21300066: 'map_things_3.0 #07016_34'
+    21300068: 'map_things_3.0 #07016_35'
+    21300070: 'map_things_3.0 #07016_36'
+    21300072: 'map_things_3.0 #07016_37'
+    21300074: 'map_things_3.0 #07016_38'
+    21300076: 'map_things_3.0 #07016_39'
+    21300078: 'map_things_3.0 #07016_40'
+    21300080: 'map_things_3.0 #07016_41'
+    21300082: 'map_things_3.0 #07016_42'
+    21300084: 'map_things_3.0 #07016_43'
+    21300086: 'map_things_3.0 #07016_44'
+    21300088: 'map_things_3.0 #07016_45'
+    21300090: 'map_things_3.0 #07016_46'
+    21300092: 'map_things_3.0 #07016_47'
+    21300094: 'map_things_3.0 #07016_48'
+    21300096: 'map_things_3.0 #07016_49'
+    21300098: 'map_things_3.0 #07016_50'
+    21300100: 'map_things_3.0 #07016_51'
+    21300102: 'map_things_3.0 #07016_52'
+    21300104: 'map_things_3.0 #07016_53'
+    21300106: 'map_things_3.0 #07016_54'
+    21300108: 'map_things_3.0 #07016_55'
+    21300110: 'map_things_3.0 #07016_56'
+    21300112: 'map_things_3.0 #07016_57'
+    21300114: 'map_things_3.0 #07016_58'
+    21300116: 'map_things_3.0 #07016_59'
+    21300118: 'map_things_3.0 #07016_60'
+    21300120: 'map_things_3.0 #07016_61'
+    21300122: 'map_things_3.0 #07016_62'
+    21300124: 'map_things_3.0 #07016_63'
+    21300126: 'map_things_3.0 #07016_64'
+    21300128: 'map_things_3.0 #07016_65'
+    21300130: 'map_things_3.0 #07016_66'
+    21300132: 'map_things_3.0 #07016_67'
+    21300134: 'map_things_3.0 #07016_68'
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 'map_things_3.0 #07016_0'
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 438
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_1'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 448
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_2'
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 450
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 18}
+        - {x: -18, y: -18}
+        - {x: 18, y: -18}
+        - {x: 18, y: 18}
+    - name: 'map_things_3.0 #07016_3'
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 453
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_4'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 445
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_5'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 447
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 18.5}
+        - {x: -18.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 18.5, y: 18.5}
+    - name: 'map_things_3.0 #07016_6'
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 445
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -18, y: 16}
+        - {x: -18, y: -20}
+        - {x: 18, y: -20}
+        - {x: 18, y: 20}
+    - name: 'map_things_3.0 #07016_7'
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 445
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21}
+        - {x: -18.5, y: -14}
+        - {x: -17.5, y: -21}
+        - {x: 18.5, y: -21}
+        - {x: 18.5, y: 21}
+    - name: 'map_things_3.0 #07016_8'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 406
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_9'
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 413
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_10'
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 407
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_11'
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 365
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 38}
+        - {x: -20, y: 28}
+        - {x: -20, y: -38}
+        - {x: 20, y: -38}
+        - {x: 20, y: 38}
+    - name: 'map_things_3.0 #07016_12'
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 366
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 32.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -16.5, y: 8.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 16.5, y: 11.5}
+    - name: 'map_things_3.0 #07016_13'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 366
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 35.5}
+        - {x: -17.5, y: 33.5}
+        - {x: -17.5, y: -35.5}
+        - {x: 17.5, y: -35.5}
+        - {x: 17.5, y: 35.5}
+    - name: 'map_things_3.0 #07016_14'
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 366
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 37}
+        - {x: -17, y: 28}
+        - {x: -17, y: -37}
+        - {x: 17, y: -37}
+        - {x: 17, y: 32}
+        - {x: 11, y: 37}
+    - name: 'map_things_3.0 #07016_15'
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 366
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 36}
+        - {x: -16.5, y: 28}
+        - {x: -16.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 16.5, y: 18}
+        - {x: 11.5, y: 36}
+    - name: 'map_things_3.0 #07016_16'
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 369
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_17'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 366
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 19.5}
+        - {x: -20, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 19.5}
+    - name: 'map_things_3.0 #07016_18'
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 375
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_19'
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 324
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 21.5}
+        - {x: -17, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 17, y: 21.5}
+    - name: 'map_things_3.0 #07016_20'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 325
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 19.5}
+        - {x: -20, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 19.5}
+    - name: 'map_things_3.0 #07016_21'
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 325
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 20}
+        - {x: -18, y: 14}
+        - {x: -18, y: -20}
+        - {x: 18, y: -20}
+        - {x: 18, y: 14}
+        - {x: 8, y: 20}
+    - name: 'map_things_3.0 #07016_22'
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 285
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 37}
+        - {x: -19, y: 28}
+        - {x: -19, y: -37}
+        - {x: 17, y: -37}
+        - {x: 19, y: -35}
+        - {x: 19, y: 37}
+    - name: 'map_things_3.0 #07016_23'
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 285
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 34.5}
+        - {x: -16.5, y: 19.5}
+        - {x: -16.5, y: -34.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 16.5, y: 2.5}
+        - {x: 10.5, y: 34.5}
+    - name: 'map_things_3.0 #07016_24'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 284
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37}
+        - {x: -14.5, y: 30}
+        - {x: -17.5, y: 8}
+        - {x: -17.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 17.5, y: 16}
+        - {x: 12.5, y: 37}
+    - name: 'map_things_3.0 #07016_25'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 284
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 38.5}
+        - {x: -9, y: 34.5}
+        - {x: -20, y: 28.5}
+        - {x: -20, y: -38.5}
+        - {x: 20, y: -38.5}
+        - {x: 20, y: 35.5}
+        - {x: 18, y: 38.5}
+    - name: 'map_things_3.0 #07016_26'
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 285
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 37}
+        - {x: -18, y: 26}
+        - {x: -18, y: -37}
+        - {x: 17, y: -37}
+        - {x: 18, y: -28}
+        - {x: 18, y: 37}
+    - name: 'map_things_3.0 #07016_27'
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 284
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17}
+        - {x: -16.5, y: -17}
+        - {x: 16.5, y: -17}
+        - {x: 16.5, y: 17}
+    - name: 'map_things_3.0 #07016_28'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 284
+        width: 107
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 20}
+        - {x: -53.5, y: 20}
+        - {x: -53.5, y: -20}
+        - {x: 53.5, y: -20}
+    - name: 'map_things_3.0 #07016_29'
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 290
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_30'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 286
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19}
+        - {x: -17, y: 15}
+        - {x: -17, y: -19}
+        - {x: 17, y: -19}
+        - {x: 17, y: 19}
+    - name: 'map_things_3.0 #07016_31'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 284
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 19.5}
+        - {x: -20, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 19.5}
+    - name: 'map_things_3.0 #07016_32'
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 284
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 20}
+        - {x: -18, y: 14}
+        - {x: -18, y: -20}
+        - {x: 18, y: -20}
+        - {x: 18, y: 14}
+        - {x: 8, y: 20}
+    - name: 'map_things_3.0 #07016_34'
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 250
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_35'
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 243
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 19.5}
+        - {x: -20, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 19.5}
+    - name: 'map_things_3.0 #07016_36'
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 243
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 19.5}
+        - {x: -20, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 19.5}
+    - name: 'map_things_3.0 #07016_37'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 243
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_38'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 251
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_39'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 243
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -17}
+        - {x: -18, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_40'
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 246
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17}
+        - {x: -18.5, y: 15}
+        - {x: -18.5, y: -17}
+        - {x: 18.5, y: -17}
+        - {x: 18.5, y: 17}
+    - name: 'map_things_3.0 #07016_41'
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 203
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 36.5}
+        - {x: -17.5, y: 23.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 17.5, y: 25.5}
+        - {x: 9.5, y: 36.5}
+    - name: 'map_things_3.0 #07016_42'
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 204
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 16.5, y: 12}
+        - {x: 15.5, y: 33}
+        - {x: -9.5, y: 33}
+        - {x: -16.5, y: 25}
+    - name: 'map_things_3.0 #07016_43'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 204
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 38.5}
+        - {x: -17.5, y: 38.5}
+        - {x: -17.5, y: -38.5}
+        - {x: 17.5, y: -38.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 30.5}
+    - name: 'map_things_3.0 #07016_44'
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 204
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32.5}
+        - {x: -19, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 19, y: 37.5}
+        - {x: 1, y: 37.5}
+        - {x: -9, y: 35.5}
+    - name: 'map_things_3.0 #07016_45'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 203
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36.5}
+        - {x: -20, y: -20.5}
+        - {x: -16, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 20, y: 28.5}
+        - {x: 10, y: 36.5}
+    - name: 'map_things_3.0 #07016_46'
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 210
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'map_things_3.0 #07016_47'
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 202
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_48'
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 203
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -18, y: 14.5}
+        - {x: -18, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 18, y: 16.5}
+    - name: 'map_things_3.0 #07016_49'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 202
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_50'
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 202
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 20}
+        - {x: -20, y: 19}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_51'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 202
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_52'
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 202
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'map_things_3.0 #07016_53'
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 35.5}
+        - {x: -16.5, y: 22.5}
+        - {x: -16.5, y: -35.5}
+        - {x: 16.5, y: -35.5}
+        - {x: 16.5, y: 22.5}
+        - {x: 9.5, y: 35.5}
+    - name: 'map_things_3.0 #07016_54'
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 122
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 39.5}
+        - {x: -18.5, y: -39.5}
+        - {x: 18.5, y: -39.5}
+        - {x: 18.5, y: 19.5}
+        - {x: 17.5, y: 32.5}
+        - {x: 1.5, y: 39.5}
+    - name: 'map_things_3.0 #07016_55'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 123
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 32.5}
+        - {x: -3.5, y: 32.5}
+        - {x: -12.5, y: 18.5}
+        - {x: -16.5, y: 2.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 16.5, y: 10.5}
+        - {x: 15.5, y: 15.5}
+    - name: 'map_things_3.0 #07016_56'
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 123
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 23.5}
+        - {x: 4.5, y: 34.5}
+        - {x: -8.5, y: 34.5}
+        - {x: -10.5, y: 33.5}
+        - {x: -16.5, y: 1.5}
+        - {x: -16.5, y: -34.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 16.5, y: -2.5}
+        - {x: 15.5, y: -1.5}
+    - name: 'map_things_3.0 #07016_57'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 123
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33}
+        - {x: -15.5, y: 32}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 16.5, y: 23}
+        - {x: 11.5, y: 33}
+    - name: 'map_things_3.0 #07016_58'
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 123
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 32.5}
+        - {x: -3.5, y: 32.5}
+        - {x: -12.5, y: 18.5}
+        - {x: -16.5, y: 2.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 16.5, y: 10.5}
+        - {x: 15.5, y: 15.5}
+    - name: 'map_things_3.0 #07016_59'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 123
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 23.5}
+        - {x: 4.5, y: 34.5}
+        - {x: -8.5, y: 34.5}
+        - {x: -10.5, y: 33.5}
+        - {x: -16.5, y: 1.5}
+        - {x: -16.5, y: -34.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 16.5, y: -2.5}
+        - {x: 15.5, y: -1.5}
+    - name: 'map_things_3.0 #07016_60'
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 123
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33}
+        - {x: -15.5, y: 32}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 16.5, y: 23}
+        - {x: 11.5, y: 33}
+    - name: 'map_things_3.0 #07016_61'
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 122
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 36.5}
+        - {x: -18.5, y: -36.5}
+        - {x: 18.5, y: -36.5}
+        - {x: 18.5, y: 36.5}
+    - name: 'map_things_3.0 #07016_62'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 122
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 38}
+        - {x: -18, y: 33}
+        - {x: -18, y: -38}
+        - {x: 18, y: -38}
+        - {x: 18, y: 28}
+        - {x: 10, y: 38}
+    - name: 'map_things_3.0 #07016_63'
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 122
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 38}
+        - {x: -19, y: 31}
+        - {x: -19, y: -38}
+        - {x: 19, y: -38}
+        - {x: 19, y: 38}
+    - name: 'map_things_3.0 #07016_64'
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 123
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 35.5}
+        - {x: -19, y: -19.5}
+        - {x: -18, y: -33.5}
+        - {x: -15, y: -35.5}
+        - {x: 19, y: -35.5}
+        - {x: 19, y: 26.5}
+        - {x: 10, y: 35.5}
+    - name: 'map_things_3.0 #07016_65'
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 55.5}
+        - {x: -56, y: 37.5}
+        - {x: -56, y: -20.5}
+        - {x: -51, y: -54.5}
+        - {x: -40, y: -55.5}
+        - {x: 29, y: -55.5}
+        - {x: 56, y: -49.5}
+        - {x: 56, y: 51.5}
+        - {x: 51, y: 55.5}
+    - name: 'map_things_3.0 #07016_66'
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 16
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 52}
+        - {x: -52, y: -51}
+        - {x: -49, y: -52}
+        - {x: 52, y: -52}
+        - {x: 52, y: 52}
+    - name: 'map_things_3.0 #07016_67'
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 53}
+        - {x: -56, y: -50}
+        - {x: -53, y: -53}
+        - {x: 56, y: -53}
+        - {x: 56, y: 53}
+    - name: 'map_things_3.0 #07016_68'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 17
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 51.5}
+        - {x: -54, y: -51.5}
+        - {x: 54, y: -51.5}
+        - {x: 54, y: 51.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

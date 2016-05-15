@@ -1,0 +1,5581 @@
+fileFormatVersion: 2
+guid: ac51008993855e64c9c00478e680f7bd
+timeCreated: 1462531251
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 'frame_animation #1219_0'
+    21300002: 'frame_animation #1219_1'
+    21300004: 'frame_animation #1219_2'
+    21300006: 'frame_animation #1219_3'
+    21300008: 'frame_animation #1219_4'
+    21300010: 'frame_animation #1219_5'
+    21300012: 'frame_animation #1219_6'
+    21300014: 'frame_animation #1219_7'
+    21300016: 'frame_animation #1219_8'
+    21300018: 'frame_animation #1219_9'
+    21300020: 'frame_animation #1219_10'
+    21300022: 'frame_animation #1219_11'
+    21300024: 'frame_animation #1219_12'
+    21300026: 'frame_animation #1219_13'
+    21300028: 'frame_animation #1219_14'
+    21300030: 'frame_animation #1219_15'
+    21300032: 'frame_animation #1219_16'
+    21300034: 'frame_animation #1219_17'
+    21300036: 'frame_animation #1219_18'
+    21300038: 'frame_animation #1219_19'
+    21300040: 'frame_animation #1219_20'
+    21300042: 'frame_animation #1219_21'
+    21300044: 'frame_animation #1219_22'
+    21300046: 'frame_animation #1219_23'
+    21300048: 'frame_animation #1219_24'
+    21300050: 'frame_animation #1219_25'
+    21300052: 'frame_animation #1219_26'
+    21300054: 'frame_animation #1219_27'
+    21300056: 'frame_animation #1219_28'
+    21300058: 'frame_animation #1219_29'
+    21300060: 'frame_animation #1219_30'
+    21300062: 'frame_animation #1219_31'
+    21300064: 'frame_animation #1219_32'
+    21300066: 'frame_animation #1219_33'
+    21300068: 'frame_animation #1219_34'
+    21300070: 'frame_animation #1219_35'
+    21300072: 'frame_animation #1219_36'
+    21300074: 'frame_animation #1219_37'
+    21300076: 'frame_animation #1219_38'
+    21300078: 'frame_animation #1219_39'
+    21300080: 'frame_animation #1219_40'
+    21300082: 'frame_animation #1219_41'
+    21300084: 'frame_animation #1219_42'
+    21300086: 'frame_animation #1219_43'
+    21300088: 'frame_animation #1219_44'
+    21300090: 'frame_animation #1219_45'
+    21300092: 'frame_animation #1219_46'
+    21300094: 'frame_animation #1219_47'
+    21300096: 'frame_animation #1219_48'
+    21300098: 'frame_animation #1219_49'
+    21300100: 'frame_animation #1219_50'
+    21300102: 'frame_animation #1219_51'
+    21300104: 'frame_animation #1219_52'
+    21300106: 'frame_animation #1219_53'
+    21300108: 'frame_animation #1219_54'
+    21300110: 'frame_animation #1219_55'
+    21300112: 'frame_animation #1219_56'
+    21300114: 'frame_animation #1219_57'
+    21300116: 'frame_animation #1219_58'
+    21300118: 'frame_animation #1219_59'
+    21300120: 'frame_animation #1219_60'
+    21300122: 'frame_animation #1219_61'
+    21300124: 'frame_animation #1219_62'
+    21300126: 'frame_animation #1219_63'
+    21300128: 'frame_animation #1219_64'
+    21300130: 'frame_animation #1219_65'
+    21300132: 'frame_animation #1219_66'
+    21300134: 'frame_animation #1219_67'
+    21300136: 'frame_animation #1219_68'
+    21300138: 'frame_animation #1219_69'
+    21300140: 'frame_animation #1219_70'
+    21300142: 'frame_animation #1219_71'
+    21300144: 'frame_animation #1219_72'
+    21300146: 'frame_animation #1219_73'
+    21300148: 'frame_animation #1219_74'
+    21300150: 'frame_animation #1219_75'
+    21300152: 'frame_animation #1219_76'
+    21300154: 'frame_animation #1219_77'
+    21300156: 'frame_animation #1219_78'
+    21300158: 'frame_animation #1219_79'
+    21300160: 'frame_animation #1219_80'
+    21300162: 'frame_animation #1219_81'
+    21300164: 'frame_animation #1219_82'
+    21300166: 'frame_animation #1219_83'
+    21300168: 'frame_animation #1219_84'
+    21300170: 'frame_animation #1219_85'
+    21300172: 'frame_animation #1219_86'
+    21300174: 'frame_animation #1219_87'
+    21300176: 'frame_animation #1219_88'
+    21300178: 'frame_animation #1219_89'
+    21300180: 'frame_animation #1219_90'
+    21300182: 'frame_animation #1219_91'
+    21300184: 'frame_animation #1219_92'
+    21300186: 'frame_animation #1219_93'
+    21300188: 'frame_animation #1219_94'
+    21300190: 'frame_animation #1219_95'
+    21300192: 'frame_animation #1219_96'
+    21300194: 'frame_animation #1219_97'
+    21300196: 'frame_animation #1219_98'
+    21300198: 'frame_animation #1219_99'
+    21300200: 'frame_animation #1219_100'
+    21300202: 'frame_animation #1219_101'
+    21300204: 'frame_animation #1219_102'
+    21300206: 'frame_animation #1219_103'
+    21300208: 'frame_animation #1219_104'
+    21300210: 'frame_animation #1219_105'
+    21300212: 'frame_animation #1219_106'
+    21300214: 'frame_animation #1219_107'
+    21300216: 'frame_animation #1219_108'
+    21300218: 'frame_animation #1219_109'
+    21300220: 'frame_animation #1219_110'
+    21300222: 'frame_animation #1219_111'
+    21300224: 'frame_animation #1219_112'
+    21300226: 'frame_animation #1219_113'
+    21300228: 'frame_animation #1219_114'
+    21300230: 'frame_animation #1219_115'
+    21300232: 'frame_animation #1219_116'
+    21300234: 'frame_animation #1219_117'
+    21300236: 'frame_animation #1219_118'
+    21300238: 'frame_animation #1219_119'
+    21300240: 'frame_animation #1219_120'
+    21300242: 'frame_animation #1219_121'
+    21300244: 'frame_animation #1219_122'
+    21300246: 'frame_animation #1219_123'
+    21300248: 'frame_animation #1219_124'
+    21300250: 'frame_animation #1219_125'
+    21300252: 'frame_animation #1219_126'
+    21300254: 'frame_animation #1219_127'
+    21300256: 'frame_animation #1219_128'
+    21300258: 'frame_animation #1219_129'
+    21300260: 'frame_animation #1219_130'
+    21300262: 'frame_animation #1219_131'
+    21300264: 'frame_animation #1219_132'
+    21300266: 'frame_animation #1219_133'
+    21300268: 'frame_animation #1219_134'
+    21300270: 'frame_animation #1219_135'
+    21300272: 'frame_animation #1219_136'
+    21300274: 'frame_animation #1219_137'
+    21300276: 'frame_animation #1219_138'
+    21300278: 'frame_animation #1219_139'
+    21300280: 'frame_animation #1219_140'
+    21300282: 'frame_animation #1219_141'
+    21300284: 'frame_animation #1219_142'
+    21300286: 'frame_animation #1219_143'
+    21300288: 'frame_animation #1219_144'
+    21300290: 'frame_animation #1219_145'
+    21300292: 'frame_animation #1219_146'
+    21300294: 'frame_animation #1219_147'
+    21300296: 'frame_animation #1219_148'
+    21300298: 'frame_animation #1219_149'
+    21300300: 'frame_animation #1219_150'
+    21300302: 'frame_animation #1219_151'
+    21300304: 'frame_animation #1219_152'
+    21300306: 'frame_animation #1219_153'
+    21300308: 'frame_animation #1219_154'
+    21300310: 'frame_animation #1219_155'
+    21300312: 'frame_animation #1219_156'
+    21300314: 'frame_animation #1219_157'
+    21300316: 'frame_animation #1219_158'
+    21300318: 'frame_animation #1219_159'
+    21300320: 'frame_animation #1219_160'
+    21300322: 'frame_animation #1219_161'
+    21300324: 'frame_animation #1219_162'
+    21300326: 'frame_animation #1219_163'
+    21300328: 'frame_animation #1219_164'
+    21300330: 'frame_animation #1219_165'
+    21300332: 'frame_animation #1219_166'
+    21300334: 'frame_animation #1219_167'
+    21300336: 'frame_animation #1219_168'
+    21300338: 'frame_animation #1219_169'
+    21300340: 'frame_animation #1219_170'
+    21300342: 'frame_animation #1219_171'
+    21300344: 'frame_animation #1219_172'
+    21300346: 'frame_animation #1219_173'
+    21300348: 'frame_animation #1219_174'
+    21300350: 'frame_animation #1219_176'
+    21300352: 'frame_animation #1219_177'
+    21300354: 'frame_animation #1219_178'
+    21300356: 'frame_animation #1219_179'
+    21300358: 'frame_animation #1219_180'
+    21300360: 'frame_animation #1219_181'
+    21300362: 'frame_animation #1219_182'
+    21300364: 'frame_animation #1219_183'
+    21300366: 'frame_animation #1219_184'
+    21300368: 'frame_animation #1219_185'
+    21300370: 'frame_animation #1219_186'
+    21300372: 'frame_animation #1219_187'
+    21300374: 'frame_animation #1219_188'
+    21300376: 'frame_animation #1219_190'
+    21300378: 'frame_animation #1219_192'
+    21300380: 'frame_animation #1219_193'
+    21300382: 'frame_animation #1219_194'
+    21300384: 'frame_animation #1219_195'
+    21300386: 'frame_animation #1219_196'
+    21300388: 'frame_animation #1219_197'
+    21300390: 'frame_animation #1219_198'
+    21300392: 'frame_animation #1219_199'
+    21300394: 'frame_animation #1219_200'
+    21300396: 'frame_animation #1219_201'
+    21300398: 'frame_animation #1219_202'
+    21300400: 'frame_animation #1219_203'
+    21300402: 'frame_animation #1219_204'
+    21300404: 'frame_animation #1219_205'
+    21300406: 'frame_animation #1219_206'
+    21300408: 'frame_animation #1219_207'
+    21300410: 'frame_animation #1219_208'
+    21300412: 'frame_animation #1219_209'
+    21300414: 'frame_animation #1219_210'
+    21300416: 'frame_animation #1219_211'
+    21300418: 'frame_animation #1219_212'
+    21300420: 'frame_animation #1219_213'
+    21300422: 'frame_animation #1219_217'
+    21300424: 'frame_animation #1219_218'
+    21300426: 'frame_animation #1219_219'
+    21300428: 'frame_animation #1219_220'
+    21300430: 'frame_animation #1219_221'
+    21300432: 'frame_animation #1219_222'
+    21300434: 'frame_animation #1219_223'
+    21300436: 'frame_animation #1219_224'
+    21300438: 'frame_animation #1219_225'
+    21300440: 'frame_animation #1219_226'
+    21300442: 'frame_animation #1219_227'
+    21300444: 'frame_animation #1219_228'
+    21300446: 'frame_animation #1219_229'
+    21300448: 'frame_animation #1219_230'
+    21300450: 'frame_animation #1219_231'
+    21300452: 'frame_animation #1219_232'
+    21300454: 'frame_animation #1219_233'
+    21300456: 'frame_animation #1219_234'
+    21300458: 'frame_animation #1219_235'
+    21300460: 'frame_animation #1219_236'
+    21300462: 'frame_animation #1219_237'
+    21300464: 'frame_animation #1219_238'
+    21300466: 'frame_animation #1219_239'
+    21300468: 'frame_animation #1219_240'
+    21300470: 'frame_animation #1219_241'
+    21300472: 'frame_animation #1219_242'
+    21300474: 'frame_animation #1219_243'
+    21300476: 'frame_animation #1219_244'
+    21300478: 'frame_animation #1219_245'
+    21300480: 'frame_animation #1219_247'
+    21300482: 'frame_animation #1219_248'
+    21300484: 'frame_animation #1219_249'
+    21300486: 'frame_animation #1219_250'
+    21300488: 'frame_animation #1219_251'
+    21300490: 'frame_animation #1219_252'
+    21300492: 'frame_animation #1219_253'
+    21300494: 'frame_animation #1219_255'
+    21300496: 'frame_animation #1219_256'
+    21300498: 'frame_animation #1219_257'
+    21300500: 'frame_animation #1219_258'
+    21300502: 'frame_animation #1219_259'
+    21300504: 'frame_animation #1219_260'
+    21300506: 'frame_animation #1219_261'
+    21300508: 'frame_animation #1219_262'
+    21300510: 'frame_animation #1219_263'
+    21300512: 'frame_animation #1219_264'
+    21300514: 'frame_animation #1219_266'
+    21300516: 'frame_animation #1219_267'
+    21300518: 'frame_animation #1219_268'
+    21300520: 'frame_animation #1219_269'
+    21300522: 'frame_animation #1219_271'
+    21300524: 'frame_animation #1219_274'
+    21300526: 'frame_animation #1219_275'
+    21300528: 'frame_animation #1219_276'
+    21300530: 'frame_animation #1219_277'
+    21300532: 'frame_animation #1219_278'
+    21300534: 'frame_animation #1219_279'
+    21300536: 'frame_animation #1219_280'
+    21300538: 'frame_animation #1219_281'
+    21300540: 'frame_animation #1219_282'
+    21300542: 'frame_animation #1219_283'
+    21300544: 'frame_animation #1219_284'
+    21300546: 'frame_animation #1219_285'
+    21300548: 'frame_animation #1219_286'
+    21300550: 'frame_animation #1219_287'
+    21300552: 'frame_animation #1219_288'
+    21300554: 'frame_animation #1219_289'
+    21300556: 'frame_animation #1219_290'
+    21300558: 'frame_animation #1219_291'
+    21300560: 'frame_animation #1219_292'
+    21300562: 'frame_animation #1219_293'
+    21300564: 'frame_animation #1219_294'
+    21300566: 'frame_animation #1219_295'
+    21300568: 'frame_animation #1219_296'
+    21300570: 'frame_animation #1219_297'
+    21300572: 'frame_animation #1219_298'
+    21300574: 'frame_animation #1219_299'
+    21300576: 'frame_animation #1219_300'
+    21300578: 'frame_animation #1219_301'
+    21300580: 'frame_animation #1219_302'
+    21300582: 'frame_animation #1219_303'
+    21300584: 'frame_animation #1219_304'
+    21300586: 'frame_animation #1219_305'
+    21300588: 'frame_animation #1219_306'
+    21300590: 'frame_animation #1219_307'
+    21300592: 'frame_animation #1219_308'
+    21300594: 'frame_animation #1219_309'
+    21300596: 'frame_animation #1219_310'
+    21300598: 'frame_animation #1219_311'
+    21300600: 'frame_animation #1219_312'
+    21300602: 'frame_animation #1219_313'
+    21300604: 'frame_animation #1219_314'
+    21300606: 'frame_animation #1219_315'
+    21300608: 'frame_animation #1219_316'
+    21300610: 'frame_animation #1219_317'
+    21300612: 'frame_animation #1219_318'
+    21300614: 'frame_animation #1219_319'
+    21300616: 'frame_animation #1219_320'
+    21300618: 'frame_animation #1219_321'
+    21300620: 'frame_animation #1219_322'
+    21300622: 'frame_animation #1219_323'
+    21300624: 'frame_animation #1219_324'
+    21300626: 'frame_animation #1219_325'
+    21300628: 'frame_animation #1219_326'
+    21300630: 'frame_animation #1219_327'
+    21300632: 'frame_animation #1219_328'
+    21300634: 'frame_animation #1219_329'
+    21300636: 'frame_animation #1219_330'
+    21300638: 'frame_animation #1219_331'
+    21300640: 'frame_animation #1219_332'
+    21300642: 'frame_animation #1219_333'
+    21300644: 'frame_animation #1219_334'
+    21300646: 'frame_animation #1219_335'
+    21300648: 'frame_animation #1219_336'
+    21300650: 'frame_animation #1219_337'
+    21300652: 'frame_animation #1219_338'
+    21300654: 'frame_animation #1219_339'
+    21300656: 'frame_animation #1219_340'
+    21300658: 'frame_animation #1219_341'
+    21300660: 'frame_animation #1219_342'
+    21300662: 'frame_animation #1219_343'
+    21300664: 'frame_animation #1219_344'
+    21300666: 'frame_animation #1219_345'
+    21300668: 'frame_animation #1219_346'
+    21300670: 'frame_animation #1219_347'
+    21300672: 'frame_animation #1219_348'
+    21300674: 'frame_animation #1219_349'
+    21300676: 'frame_animation #1219_350'
+    21300678: 'frame_animation #1219_351'
+    21300680: 'frame_animation #1219_352'
+    21300682: 'frame_animation #1219_353'
+    21300684: 'frame_animation #1219_354'
+    21300686: 'frame_animation #1219_355'
+    21300688: 'frame_animation #1219_356'
+    21300690: 'frame_animation #1219_357'
+    21300692: 'frame_animation #1219_358'
+    21300694: 'frame_animation #1219_359'
+    21300696: 'frame_animation #1219_361'
+    21300698: 'frame_animation #1219_365'
+    21300700: 'frame_animation #1219_366'
+    21300702: 'frame_animation #1219_367'
+    21300704: 'frame_animation #1219_368'
+    21300706: 'frame_animation #1219_369'
+    21300708: 'frame_animation #1219_370'
+    21300710: 'frame_animation #1219_371'
+    21300712: 'frame_animation #1219_372'
+    21300714: 'frame_animation #1219_373'
+    21300716: 'frame_animation #1219_374'
+    21300718: 'frame_animation #1219_375'
+    21300720: 'frame_animation #1219_376'
+    21300722: 'frame_animation #1219_377'
+    21300724: 'frame_animation #1219_378'
+    21300726: 'frame_animation #1219_379'
+    21300728: 'frame_animation #1219_380'
+    21300730: 'frame_animation #1219_381'
+    21300732: 'frame_animation #1219_382'
+    21300734: 'frame_animation #1219_383'
+    21300736: 'frame_animation #1219_384'
+    21300738: 'frame_animation #1219_385'
+    21300740: 'frame_animation #1219_386'
+    21300742: 'frame_animation #1219_387'
+    21300744: 'frame_animation #1219_388'
+    21300746: 'frame_animation #1219_389'
+    21300748: 'frame_animation #1219_390'
+    21300750: 'frame_animation #1219_391'
+    21300752: 'frame_animation #1219_392'
+    21300754: 'frame_animation #1219_393'
+    21300756: 'frame_animation #1219_394'
+    21300758: 'frame_animation #1219_395'
+    21300760: 'frame_animation #1219_396'
+    21300762: 'frame_animation #1219_397'
+    21300764: 'frame_animation #1219_398'
+    21300766: 'frame_animation #1219_399'
+    21300768: 'frame_animation #1219_400'
+    21300770: 'frame_animation #1219_401'
+    21300772: 'frame_animation #1219_402'
+    21300774: 'frame_animation #1219_403'
+    21300776: 'frame_animation #1219_404'
+    21300778: 'frame_animation #1219_405'
+    21300780: 'frame_animation #1219_406'
+    21300782: 'frame_animation #1219_407'
+    21300784: 'frame_animation #1219_408'
+    21300786: 'frame_animation #1219_409'
+    21300788: 'frame_animation #1219_410'
+    21300790: 'frame_animation #1219_411'
+    21300792: 'frame_animation #1219_412'
+    21300794: 'frame_animation #1219_413'
+    21300796: 'frame_animation #1219_414'
+    21300798: 'frame_animation #1219_415'
+    21300800: 'frame_animation #1219_416'
+    21300802: 'frame_animation #1219_417'
+    21300804: 'frame_animation #1219_418'
+    21300806: 'frame_animation #1219_419'
+    21300808: 'frame_animation #1219_420'
+    21300810: 'frame_animation #1219_421'
+    21300812: 'frame_animation #1219_422'
+    21300814: 'frame_animation #1219_423'
+    21300816: 'frame_animation #1219_424'
+    21300818: 'frame_animation #1219_175'
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 'frame_animation #1219_0'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 985
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_1'
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_2'
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_3'
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1006
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_4'
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1006
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_5'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_6'
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1006
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_7'
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_8'
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_9'
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1006
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_10'
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_11'
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_12'
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 987
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_13'
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 949
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 10}
+        - {x: -2.5, y: 11}
+        - {x: -7.5, y: 11}
+        - {x: -13.5, y: 4}
+        - {x: -13.5, y: -33}
+        - {x: -9.5, y: -34}
+        - {x: 18.5, y: -34}
+      - - {x: -12.5, y: -16}
+        - {x: -18.5, y: -16}
+        - {x: -18.5, y: -28}
+        - {x: -17.5, y: -29}
+        - {x: -14.5, y: -27}
+        - {x: -10.5, y: -23}
+        - {x: -10.5, y: -18}
+      - - {x: 8.5, y: -17}
+        - {x: 5.5, y: -20}
+        - {x: 5.5, y: -21}
+        - {x: 8.5, y: -24}
+        - {x: 9.5, y: -24}
+        - {x: 12.5, y: -21}
+        - {x: 12.5, y: -20}
+        - {x: 9.5, y: -17}
+      - - {x: -13.5, y: 5}
+        - {x: -10.5, y: 6}
+        - {x: -10.5, y: 9}
+        - {x: -13.5, y: 10}
+        - {x: -15.5, y: 8}
+      - - {x: -1.5, y: 10}
+        - {x: 1.5, y: 11}
+        - {x: 1.5, y: 14}
+        - {x: -1.5, y: 15}
+        - {x: -3.5, y: 13}
+      - - {x: -15.5, y: 14}
+        - {x: -15.5, y: 17}
+        - {x: -18.5, y: 18}
+        - {x: -18.5, y: 13}
+      - - {x: -11.5, y: 13}
+        - {x: -8.5, y: 14}
+        - {x: -8.5, y: 17}
+        - {x: -11.5, y: 18}
+        - {x: -13.5, y: 16}
+      - - {x: 7.5, y: 14}
+        - {x: 10.5, y: 15}
+        - {x: 10.5, y: 18}
+        - {x: 7.5, y: 19}
+        - {x: 5.5, y: 17}
+      - - {x: -6.5, y: 18}
+        - {x: -3.5, y: 19}
+        - {x: -3.5, y: 22}
+        - {x: -6.5, y: 23}
+        - {x: -8.5, y: 21}
+      - - {x: 0.5, y: 22}
+        - {x: 3.5, y: 23}
+        - {x: 3.5, y: 26}
+        - {x: 0.5, y: 27}
+        - {x: -1.5, y: 25}
+      - - {x: -11.5, y: 23}
+        - {x: -8.5, y: 24}
+        - {x: -8.5, y: 27}
+        - {x: -11.5, y: 28}
+        - {x: -13.5, y: 26}
+      - - {x: 15.5, y: 28}
+        - {x: 17.5, y: 26}
+        - {x: 18.5, y: 26}
+        - {x: 18.5, y: 31}
+        - {x: 16.5, y: 31}
+      - - {x: -15.5, y: 29}
+        - {x: -15.5, y: 32}
+        - {x: -18.5, y: 33}
+        - {x: -18.5, y: 28}
+      - - {x: 12.5, y: 28}
+        - {x: 15.5, y: 29}
+        - {x: 15.5, y: 32}
+        - {x: 12.5, y: 33}
+        - {x: 10.5, y: 31}
+      - - {x: -6.5, y: 34}
+        - {x: -7.5, y: 33}
+        - {x: -6.5, y: 29}
+        - {x: 1.5, y: 29}
+        - {x: 3.5, y: 30}
+        - {x: 3.5, y: 32}
+        - {x: 2.5, y: 34}
+    - name: 'frame_animation #1219_14'
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1004
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_15'
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 974
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_16'
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 974
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_17'
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 976
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 12.5}
+        - {x: -10, y: 16.5}
+        - {x: -20, y: 16.5}
+        - {x: -20, y: -2.5}
+        - {x: -14, y: -5.5}
+        - {x: -2, y: -10.5}
+        - {x: 12, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 20, y: 3.5}
+    - name: 'frame_animation #1219_18'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 971
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_19'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 965
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_20'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 972
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_21'
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 972
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_22'
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 981
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_23'
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 989
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_24'
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 995
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_25'
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 994
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_26'
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 995
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_27'
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 996
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_28'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 965
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_29'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 965
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_30'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 986
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_31'
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 980
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_32'
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 978
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_33'
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 981
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_34'
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 978
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_35'
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 966
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_36'
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 967
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_37'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 939
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_38'
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 973
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_39'
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 952
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_40'
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 936
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_41'
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 965
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_42'
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 967
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_43'
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_44'
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 965
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_45'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 924
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_46'
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 931
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_47'
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 960
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_48'
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 947
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_49'
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 954
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_50'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 934
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_51'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 934
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_52'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 953
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_53'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 928
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_54'
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 950
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_55'
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 950
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_56'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 931
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_57'
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 937
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_58'
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 926
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_59'
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 926
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_60'
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 926
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_61'
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 926
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_62'
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 946
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_63'
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 917
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 19.5}
+        - {x: -18.5, y: 6.5}
+        - {x: -18.5, y: -19.5}
+        - {x: 12.5, y: -19.5}
+        - {x: 18.5, y: -14.5}
+        - {x: 18.5, y: 4.5}
+        - {x: 9.5, y: 19.5}
+    - name: 'frame_animation #1219_64'
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 944
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_65'
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 926
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_66'
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 904
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_67'
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 939
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_68'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 903
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_69'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 903
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_70'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 903
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_71'
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 918
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_72'
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 911
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_73'
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 924
+        width: 40
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_74'
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 924
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_75'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 898
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_76'
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 921
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_77'
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 913
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_78'
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 913
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_79'
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 911
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_80'
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 893
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_81'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 887
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_82'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 887
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_83'
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 913
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_84'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 883
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_85'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 883
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_86'
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 885
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_87'
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 889
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_88'
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 914
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_89'
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 886
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_90'
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 893
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_91'
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 858
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_92'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 894
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_93'
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 895
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_94'
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_95'
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 865
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_96'
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 897
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_97'
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 865
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_98'
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 895
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_99'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 872
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_100'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 872
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_101'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 872
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_102'
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 878
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_103'
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 866
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_104'
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 883
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_105'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 857
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_106'
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 865
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_107'
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 865
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_108'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 846
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_109'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 870
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_110'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 842
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_111'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 842
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_112'
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 845
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_113'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 842
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_114'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 845
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_115'
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 874
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_116'
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 852
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_117'
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 867
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_118'
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 838
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: -8.5}
+        - {x: -12.5, y: -20.5}
+        - {x: 13.5, y: -20.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 5.5}
+        - {x: 4.5, y: 20.5}
+        - {x: -3.5, y: 20.5}
+        - {x: -17.5, y: 1.5}
+    - name: 'frame_animation #1219_119'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 841
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_120'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 841
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_121'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 841
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_122'
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 848
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_123'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 860
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_124'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 846
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_125'
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 815
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_126'
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 834
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_127'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 805
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_128'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 801
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_129'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 801
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_130'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 801
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_131'
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 803
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_132'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 816
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_133'
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 829
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_134'
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 833
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_135'
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 833
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_136'
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 815
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_137'
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 838
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_138'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 810
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_139'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 810
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_140'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 810
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_141'
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 797
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_142'
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 820
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_143'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 805
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_144'
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 803
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_145'
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 823
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_146'
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 802
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_147'
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 778
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 25.5}
+        - {x: -10.5, y: 25.5}
+        - {x: -19.5, y: -1.5}
+        - {x: -19.5, y: -15.5}
+        - {x: -7.5, y: -25.5}
+        - {x: 9.5, y: -25.5}
+        - {x: 19.5, y: -19.5}
+        - {x: 19.5, y: 9.5}
+    - name: 'frame_animation #1219_148'
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 779
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_149'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_150'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_151'
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_152'
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_153'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_154'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 779
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_155'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 779
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_156'
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 779
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_157'
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 754
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_158'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_159'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 764
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_160'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 764
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_161'
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 788
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_162'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_163'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_164'
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 762
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_165'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_166'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 763
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_167'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 775
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_168'
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 780
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_169'
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 785
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_170'
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 771
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_171'
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 778
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_172'
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 777
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_173'
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 777
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_174'
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 787
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_176'
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 745
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_177'
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 745
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_178'
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 755
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_179'
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 746
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_180'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 734
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_181'
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 770
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_182'
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 773
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_183'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 746
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_184'
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 746
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_185'
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 746
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_186'
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 746
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_187'
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 745
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_188'
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 728
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_190'
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 695
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_192'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 718
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_193'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 719
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_194'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 723
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_195'
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 751
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_196'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 719
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_197'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 719
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_198'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 719
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_199'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 721
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -16, y: 9}
+        - {x: -16, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 2}
+        - {x: 5, y: 18}
+    - name: 'frame_animation #1219_200'
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 713
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_201'
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 712
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_202'
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 726
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_203'
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 727
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_204'
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 713
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_205'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 723
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_206'
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 729
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_207'
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 731
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_208'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 693
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_209'
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 727
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_210'
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 728
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_211'
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 721
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_212'
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 720
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_213'
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 574
+        width: 109
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 74}
+        - {x: -54.5, y: 27}
+        - {x: -33.5, y: -50}
+        - {x: 0.5, y: -74}
+        - {x: 53.5, y: -74}
+        - {x: 54.5, y: -70}
+        - {x: 54.5, y: -22}
+        - {x: -36.5, y: 74}
+    - name: 'frame_animation #1219_217'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 678
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_218'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 682
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -17.5, y: 3}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 3}
+        - {x: 15.5, y: 14}
+        - {x: 11.5, y: 17}
+    - name: 'frame_animation #1219_219'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 678
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_220'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 678
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_221'
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 708
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_222'
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 712
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_223'
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 711
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_224'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 678
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_225'
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 680
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_226'
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -13}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 14}
+        - {x: 13, y: 16}
+    - name: 'frame_animation #1219_227'
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 682
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_228'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 682
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_229'
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 706
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_230'
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 701
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_231'
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 699
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_232'
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 694
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_233'
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 688
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_234'
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 694
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_235'
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 698
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_236'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 694
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_237'
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 680
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_238'
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 681
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_239'
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 688
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_240'
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 682
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_241'
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 683
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_242'
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_243'
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 679
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_244'
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 675
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_245'
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 553
+        width: 96
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 71.5}
+        - {x: -48, y: 12.5}
+        - {x: 28, y: -71.5}
+        - {x: 48, y: -71.5}
+        - {x: 48, y: -51.5}
+        - {x: 40, y: -5.5}
+        - {x: 17, y: 71.5}
+    - name: 'frame_animation #1219_247'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 679
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_248'
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 638
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 16}
+        - {x: -6.5, y: 13}
+        - {x: -6.5, y: 1}
+        - {x: 2.5, y: -16}
+        - {x: 21.5, y: -16}
+        - {x: 26.5, y: -12}
+        - {x: 26.5, y: 16}
+      - - {x: -23.5, y: -10}
+        - {x: -23.5, y: -7}
+        - {x: -26.5, y: -6}
+        - {x: -26.5, y: -11}
+      - - {x: -14.5, y: -8}
+        - {x: -11.5, y: -7}
+        - {x: -11.5, y: -4}
+        - {x: -14.5, y: -3}
+        - {x: -16.5, y: -5}
+      - - {x: -9.5, y: -7}
+        - {x: -6.5, y: -6}
+        - {x: -6.5, y: -3}
+        - {x: -9.5, y: -2}
+        - {x: -11.5, y: -4}
+      - - {x: -23.5, y: -3}
+        - {x: -23.5, y: 0}
+        - {x: -26.5, y: 1}
+        - {x: -26.5, y: -4}
+      - - {x: -19.5, y: 1}
+        - {x: -16.5, y: 2}
+        - {x: -16.5, y: 5}
+        - {x: -19.5, y: 6}
+        - {x: -21.5, y: 4}
+    - name: 'frame_animation #1219_249'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_250'
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 647
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_251'
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 643
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_252'
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 639
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -13}
+        - {x: -14, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: 'frame_animation #1219_253'
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -16}
+        - {x: -5.5, y: -13}
+        - {x: -11.5, y: -13}
+        - {x: -12.5, y: -16}
+      - - {x: 1.5, y: 16}
+        - {x: 1.5, y: -8}
+        - {x: 6.5, y: -16}
+        - {x: 14.5, y: -16}
+        - {x: 17.5, y: -14}
+        - {x: 17.5, y: 16}
+      - - {x: -16.5, y: -15}
+        - {x: -11.5, y: -15}
+        - {x: -1.5, y: -3}
+        - {x: -1.5, y: 13}
+        - {x: -2.5, y: 16}
+        - {x: -13.5, y: 16}
+        - {x: -17.5, y: 14}
+        - {x: -17.5, y: -12}
+    - name: 'frame_animation #1219_255'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 637
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_256'
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 641
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_257'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 637
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_258'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 637
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_259'
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 666
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_260'
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 667
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_261'
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 660
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_262'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 637
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_263'
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 639
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_264'
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 639
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_266'
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 637
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_267'
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 639
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 13.5}
+        - {x: -15.5, y: 7.5}
+        - {x: -15.5, y: 2.5}
+        - {x: -14.5, y: 0.5}
+        - {x: -14.5, y: -16.5}
+        - {x: 16.5, y: -16.5}
+        - {x: 16.5, y: 9.5}
+        - {x: 11.5, y: 13.5}
+    - name: 'frame_animation #1219_268'
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 660
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_269'
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 639
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_271'
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 639
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_275'
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 645
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_276'
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 645
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_277'
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 607
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_278'
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 641
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_279'
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 630
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_280'
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_281'
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_282'
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_283'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_284'
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 596
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 20}
+        - {x: -40.5, y: -20}
+        - {x: 40.5, y: -20}
+        - {x: 40.5, y: 20}
+    - name: 'frame_animation #1219_285'
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_286'
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_287'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_288'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_289'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 596
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_290'
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 596
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -21, y: -20}
+        - {x: 21, y: -20}
+        - {x: 21, y: 20}
+    - name: 'frame_animation #1219_291'
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 634
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_292'
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 620
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_293'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 596
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -20, y: 14}
+        - {x: -20, y: -16}
+        - {x: 20, y: -16}
+        - {x: 20, y: 8}
+        - {x: 4, y: 13}
+    - name: 'frame_animation #1219_294'
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 598
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 13.5}
+        - {x: -12.5, y: 13.5}
+        - {x: -13.5, y: 12.5}
+        - {x: -16.5, y: 7.5}
+        - {x: -16.5, y: -5.5}
+        - {x: -13.5, y: -16.5}
+        - {x: 15.5, y: -16.5}
+        - {x: 15.5, y: 5.5}
+    - name: 'frame_animation #1219_295'
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 614
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_296'
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 609
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_298'
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 600
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_299'
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 596
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_300'
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 561
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 22}
+        - {x: -10.5, y: 22}
+        - {x: -10.5, y: -22}
+        - {x: 8.5, y: -22}
+        - {x: 15.5, y: -16}
+        - {x: 15.5, y: 19}
+        - {x: 12.5, y: 21}
+      - - {x: 16.5, y: -11}
+        - {x: 18.5, y: -13}
+        - {x: 19.5, y: -13}
+        - {x: 19.5, y: -8}
+        - {x: 17.5, y: -8}
+      - - {x: -17.5, y: -1}
+        - {x: -19.5, y: -1}
+        - {x: -19.5, y: -8}
+        - {x: -16.5, y: -8}
+        - {x: -14.5, y: -5}
+        - {x: -14.5, y: -3}
+      - - {x: -12.5, y: -5}
+        - {x: -10.5, y: -7}
+        - {x: -5.5, y: -5}
+        - {x: -5.5, y: -3}
+        - {x: -8.5, y: 0}
+        - {x: -10.5, y: 0}
+      - - {x: -16.5, y: 13}
+        - {x: -18.5, y: 12}
+        - {x: -18.5, y: 8}
+        - {x: -16.5, y: 6}
+        - {x: -13.5, y: 6}
+        - {x: -11.5, y: 8}
+        - {x: -11.5, y: 11}
+        - {x: -12.5, y: 13}
+      - - {x: 14.5, y: 12}
+        - {x: 13.5, y: 10}
+        - {x: 13.5, y: 7}
+        - {x: 15.5, y: 6}
+        - {x: 18.5, y: 6}
+        - {x: 19.5, y: 7}
+        - {x: 19.5, y: 12}
+      - - {x: -12.5, y: 17}
+        - {x: -9.5, y: 17}
+        - {x: -7.5, y: 18}
+        - {x: -7.5, y: 22}
+        - {x: -13.5, y: 22}
+        - {x: -13.5, y: 19}
+    - name: 'frame_animation #1219_301'
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 15.5}
+        - {x: -14.5, y: 14.5}
+        - {x: -14.5, y: -2.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -10.5, y: -16.5}
+        - {x: 12.5, y: -16.5}
+        - {x: 13.5, y: -14.5}
+        - {x: 13.5, y: 15.5}
+    - name: 'frame_animation #1219_302'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 16.5}
+        - {x: -13.5, y: -16.5}
+        - {x: 7.5, y: -16.5}
+        - {x: 13.5, y: -14.5}
+        - {x: 14.5, y: -5.5}
+        - {x: 14.5, y: 10.5}
+        - {x: 9.5, y: 16.5}
+    - name: 'frame_animation #1219_303'
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 16.5}
+        - {x: -11.5, y: 16.5}
+        - {x: -14.5, y: 11.5}
+        - {x: -14.5, y: -6.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -6.5, y: -16.5}
+        - {x: 7.5, y: -16.5}
+        - {x: 11.5, y: -13.5}
+        - {x: 13.5, y: 1.5}
+        - {x: 13.5, y: 11.5}
+    - name: 'frame_animation #1219_304'
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 16.5}
+        - {x: -11.5, y: 16.5}
+        - {x: -14.5, y: 11.5}
+        - {x: -14.5, y: -6.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -6.5, y: -16.5}
+        - {x: 7.5, y: -16.5}
+        - {x: 11.5, y: -13.5}
+        - {x: 13.5, y: 1.5}
+        - {x: 13.5, y: 11.5}
+    - name: 'frame_animation #1219_305'
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 16.5}
+        - {x: -14.5, y: -16.5}
+        - {x: 6.5, y: -16.5}
+        - {x: 12.5, y: -14.5}
+        - {x: 13.5, y: -5.5}
+        - {x: 13.5, y: 10.5}
+        - {x: 8.5, y: 16.5}
+    - name: 'frame_animation #1219_306'
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 15.5}
+        - {x: -14.5, y: 14.5}
+        - {x: -14.5, y: -2.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -10.5, y: -16.5}
+        - {x: 12.5, y: -16.5}
+        - {x: 13.5, y: -14.5}
+        - {x: 13.5, y: 15.5}
+    - name: 'frame_animation #1219_307'
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 563
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16}
+        - {x: -18, y: -16}
+        - {x: 17, y: -16}
+        - {x: 18, y: -15}
+        - {x: 18, y: 16}
+    - name: 'frame_animation #1219_308'
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 563
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_309'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 562
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_310'
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 573
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_311'
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 555
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_312'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 555
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_313'
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 561
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_314'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 555
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_315'
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 555
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_316'
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 586
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_317'
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 557
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 14.5}
+        - {x: -11.5, y: 14.5}
+        - {x: -16.5, y: 10.5}
+        - {x: -16.5, y: -8.5}
+        - {x: -14.5, y: -16.5}
+        - {x: 5.5, y: -16.5}
+        - {x: 10.5, y: -13.5}
+        - {x: 13.5, y: 3.5}
+        - {x: 13.5, y: 7.5}
+    - name: 'frame_animation #1219_318'
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 576
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_326'
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 559
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_327'
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 555
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_328'
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 515
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_329'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 532
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_330'
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 532
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_331'
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 532
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_332'
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 532
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_333'
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 532
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_334'
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 532
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_335'
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_336'
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_337'
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_338'
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_339'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_340'
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 521
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_341'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_342'
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 521
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_343'
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 527
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_344'
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 514
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'frame_animation #1219_345'
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 514
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -4}
+        - {x: -11, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 16}
+        - {x: 13, y: 20}
+      - - {x: -13, y: -17}
+        - {x: -12, y: -20}
+        - {x: -9, y: -20}
+        - {x: -7, y: -18}
+        - {x: -8, y: -15}
+        - {x: -11, y: -15}
+      - - {x: -11, y: -10}
+        - {x: -8, y: -9}
+        - {x: -8, y: -6}
+        - {x: -11, y: -5}
+        - {x: -13, y: -7}
+      - - {x: -13, y: -6}
+        - {x: -13, y: -2}
+        - {x: -14, y: 1}
+        - {x: -16, y: 1}
+        - {x: -16, y: -7}
+      - - {x: -16, y: 3}
+        - {x: -15, y: 2}
+        - {x: -12, y: 3}
+        - {x: -12, y: 5}
+        - {x: -15, y: 8}
+        - {x: -16, y: 8}
+    - name: 'frame_animation #1219_346'
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 539
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_347'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_348'
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_349'
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_350'
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_351'
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_352'
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 518
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_353'
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_354'
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 526
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_355'
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 514
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_356'
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 485
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_357'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 480
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_358'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 453
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_359'
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 453
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_361'
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 438
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_365'
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 455
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_366'
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 453
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_367'
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 453
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_368'
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 448
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_369'
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 420
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -25, y: 16}
+        - {x: -25, y: -20}
+        - {x: -18, y: -25}
+        - {x: 23, y: -25}
+        - {x: 25, y: -22}
+        - {x: 25, y: 25}
+    - name: 'frame_animation #1219_370'
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 440
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_371'
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 314
+        width: 182
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 68}
+        - {x: -91, y: 65}
+        - {x: -91, y: -68}
+        - {x: 91, y: -68}
+        - {x: 91, y: 65}
+        - {x: 84, y: 68}
+    - name: 'frame_animation #1219_372'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 392
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_373'
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 392
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_374'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 424
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_375'
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 392
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_376'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 408
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_377'
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 406
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_378'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 392
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_379'
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 392
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_380'
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 393
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_381'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 392
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_382'
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 331
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_383'
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 331
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_384'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 331
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_385'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 331
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_386'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 331
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_387'
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 331
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_388'
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 299
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -25, y: 16}
+        - {x: -25, y: -20}
+        - {x: -18, y: -25}
+        - {x: 23, y: -25}
+        - {x: 25, y: -22}
+        - {x: 25, y: 25}
+    - name: 'frame_animation #1219_389'
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 270
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_390'
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 270
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_391'
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 270
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_392'
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 270
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_393'
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 270
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_394'
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 270
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_395'
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_396'
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 245
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_397'
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 245
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_398'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 245
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_399'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 245
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_400'
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 245
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_401'
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 245
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_402'
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 245
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_403'
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 245
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_404'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 196
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_405'
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 198
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_406'
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 199
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_407'
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -20, y: 17}
+        - {x: -20, y: -15}
+        - {x: -12, y: -20}
+        - {x: 15, y: -20}
+        - {x: 20, y: -11}
+        - {x: 20, y: 15}
+        - {x: 16, y: 20}
+    - name: 'frame_animation #1219_408'
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 36
+        width: 173
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 89.5}
+        - {x: -86.5, y: 60.5}
+        - {x: -86.5, y: -64.5}
+        - {x: -53.5, y: -89.5}
+        - {x: 32.5, y: -89.5}
+        - {x: 83.5, y: -59.5}
+        - {x: 86.5, y: -48.5}
+        - {x: 86.5, y: 52.5}
+        - {x: 41.5, y: 89.5}
+    - name: 'frame_animation #1219_409'
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 60
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 73.5}
+        - {x: -48.5, y: 73.5}
+        - {x: -48.5, y: -30.5}
+        - {x: -39.5, y: -73.5}
+        - {x: 24.5, y: -73.5}
+        - {x: 33.5, y: -70.5}
+        - {x: 48.5, y: -62.5}
+        - {x: 48.5, y: -20.5}
+    - name: 'frame_animation #1219_410'
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 136
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_411'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 138
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_412'
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_413'
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 142
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_414'
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 55
+        width: 185
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.5, y: 69.5}
+        - {x: -92.5, y: 69.5}
+        - {x: -92.5, y: -69.5}
+        - {x: 68.5, y: -69.5}
+        - {x: 92.5, y: -56.5}
+        - {x: 92.5, y: 60.5}
+        - {x: 89.5, y: 67.5}
+    - name: 'frame_animation #1219_415'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 45
+        width: 84
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 69.5}
+        - {x: -42, y: 20.5}
+        - {x: 34, y: -68.5}
+        - {x: 36, y: -69.5}
+        - {x: 42, y: -69.5}
+        - {x: 42, y: 60.5}
+        - {x: 38, y: 69.5}
+      - - {x: 38, y: 3.5}
+        - {x: 38, y: 0.5}
+        - {x: 41, y: -3.5}
+        - {x: 42, y: -3.5}
+        - {x: 42, y: 3.5}
+        - {x: 41, y: 4.5}
+    - name: 'frame_animation #1219_416'
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 84
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_417'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 75
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_418'
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 68
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 22.5}
+        - {x: -14, y: 20.5}
+        - {x: -20, y: 16.5}
+        - {x: -20, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 16.5}
+        - {x: 12, y: 22.5}
+    - name: 'frame_animation #1219_419'
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 81
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_420'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_421'
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 19
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_422'
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 15
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_423'
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 15
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_424'
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 727
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'frame_animation #1219_175'
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 694
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

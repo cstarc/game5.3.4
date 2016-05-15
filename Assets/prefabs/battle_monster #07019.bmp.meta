@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: ea2c2eba128746a4bb7cd7765a2fa2f5
+timeCreated: 1461987808
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 'battle_monster #07019_0'
+    21300002: 'battle_monster #07019_1'
+    21300004: 'battle_monster #07019_2'
+    21300006: 'battle_monster #07019_3'
+    21300008: 'battle_monster #07019_4'
+    21300010: 'battle_monster #07019_5'
+    21300012: 'battle_monster #07019_6'
+    21300014: 'battle_monster #07019_7'
+    21300016: 'battle_monster #07019_8'
+    21300018: 'battle_monster #07019_9'
+    21300020: 'battle_monster #07019_10'
+    21300022: 'battle_monster #07019_11'
+    21300024: 'battle_monster #07019_12'
+    21300026: 'battle_monster #07019_13'
+    21300028: 'battle_monster #07019_14'
+    21300030: 'battle_monster #07019_15'
+    21300032: 'battle_monster #07019_16'
+    21300034: 'battle_monster #07019_17'
+    21300036: 'battle_monster #07019_18'
+    21300038: 'battle_monster #07019_19'
+    21300040: 'battle_monster #07019_20'
+    21300042: 'battle_monster #07019_21'
+    21300044: 'battle_monster #07019_22'
+    21300046: 'battle_monster #07019_23'
+    21300048: 'battle_monster #07019_24'
+    21300050: 'battle_monster #07019_25'
+    21300052: 'battle_monster #07019_26'
+    21300054: 'battle_monster #07019_27'
+    21300056: 'battle_monster #07019_28'
+    21300058: 'battle_monster #07019_29'
+    21300060: 'battle_monster #07019_30'
+    21300062: 'battle_monster #07019_31'
+    21300064: 'battle_monster #07019_32'
+    21300066: 'battle_monster #07019_33'
+    21300068: 'battle_monster #07019_34'
+    21300070: 'battle_monster #07019_35'
+    21300072: 'battle_monster #07019_36'
+    21300074: 'battle_monster #07019_37'
+    21300076: 'battle_monster #07019_38'
+    21300078: 'battle_monster #07019_39'
+    21300080: 'battle_monster #07019_40'
+    21300082: 'battle_monster #07019_41'
+    21300084: 'battle_monster #07019_42'
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 'battle_monster #07019_0'
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 269
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_1'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: 'battle_monster #07019_2'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 251
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_3'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 251
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_4'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 251
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_5'
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 251
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_6'
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 250
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_7'
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_8'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_9'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_10'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_11'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_12'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 210
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_13'
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_14'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_15'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_16'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_17'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_18'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 169
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_19'
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_20'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_21'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_22'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_23'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_24'
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 128
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_25'
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_26'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_27'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_28'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_29'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_30'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 84
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_31'
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 93
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_32'
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_33'
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 46
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_34'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 46
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_35'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 46
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_36'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 52
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_monster #07019_37'
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 43
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -20}
+        - {x: 20, y: -20}
+        - {x: 20, y: 20}
+    - name: 'battle_monster #07019_38'
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_39'
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+    - name: 'battle_monster #07019_40'
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 21}
+        - {x: -41.5, y: -7}
+        - {x: -40.5, y: -9}
+        - {x: -25.5, y: -21}
+        - {x: 41.5, y: -21}
+        - {x: 41.5, y: 21}
+    - name: 'battle_monster #07019_41'
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 21}
+        - {x: -21, y: -21}
+        - {x: 21, y: -21}
+        - {x: 21, y: 21}
+      - - {x: -9, y: 12}
+        - {x: 8, y: 11}
+        - {x: 11, y: -8}
+        - {x: -9, y: -11}
+    - name: 'battle_monster #07019_42'
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 21}
+        - {x: -21, y: -21}
+        - {x: 21, y: -21}
+        - {x: 21, y: 21}
+      - - {x: -12, y: 11}
+        - {x: 11, y: 12}
+        - {x: 12, y: -11}
+        - {x: -11, y: -11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
