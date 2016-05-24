@@ -42,7 +42,7 @@ public class ChoicManager : MonoBehaviour {
     {
         heroChoosed = tempName;
         animator = Instantiate(doorCLose).GetComponent<Animator>();
-       
+        Hero.readDateByHeroName(heroChoosed);
     }
 
     public void ClickCancel()

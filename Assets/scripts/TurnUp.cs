@@ -9,17 +9,17 @@ public class TurnUp : MonoBehaviour
     bool isblack;
     public int[] near;
     private int number = 7; //行列格子数
-    private GameObject smoke;
+   // private GameObject smoke;
     // Use this for initialization
     void Awake()
     {
         Debug.Log("start");
         isblack = false;
         calculateNear();//计算near
-        smoke = Resources.Load("smoke") as GameObject;
+       // smoke = Resources.Load("smoke") as GameObject;
     }
 
-    void calculateNear()   //计算near
+    void calculateNear()   //计算并记录附近地板位置
     {
         int length = near.Length;
         int index = near[0];
@@ -107,7 +107,9 @@ public class TurnUp : MonoBehaviour
 
     public void initFog()
     {
-        Fog fog = gameObject.GetComponentInParent<Fog>();
+        Debug.Log("2");
+         Fog fog = gameObject.GetComponentInParent<Fog>();
+        //Fog fog = GameObject.FindGameObjectWithTag("manager").GetComponentInChildren<Fog>();
         fog.deleteFog(near, isblack);
     }
     void OnMouseDown()
@@ -121,20 +123,20 @@ public class TurnUp : MonoBehaviour
         //可探索
         // **判断是否不可前进即不可探索此块周边**
         //
-
+        Manager manager = gameObject.GetComponentInParent<Manager>();
+        GameObject obj = manager.randomObject(transform, near[0],ref isblack);
 
         fog.deleteFog(near, isblack);
-        Manager manager = gameObject.GetComponentInParent<Manager>();
 
         
-        GameObject obj = manager.randomObject(near[0]);
-        if (obj == null)
+       
+       /* if (obj == null)
             Instantiate(smoke, transform.position, transform.rotation);
         else
         {
             obj = Instantiate(obj, transform.position, transform.rotation) as GameObject;
             obj.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
-        }
+        }*/
 
        
 

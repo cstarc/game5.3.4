@@ -3,11 +3,20 @@ using System.Collections;
 
 public class Manager : MonoBehaviour {
     int[] map;
+    public static int level=1;
     public int rows;
     public int cols;
     public SpriteRenderer[] floor;
     public Sprite[] floorTex;
     public GameObject[] obj;
+    public GameObject smoke;
+    public GameObject entry;
+
+    public GameObject[] monster;    
+   // public GameObject[] elite;          //精英怪
+   // public GameObject[] boss;           //boss 
+   // public GameObject[] others;
+
 
     int num;    //the number of floors 
     int entryIdex; // 出口位置
@@ -42,15 +51,72 @@ public class Manager : MonoBehaviour {
             if (entryIdex != first)
                 break;
         }
+        Debug.Log("entryIdex" + entryIdex);
     }
 
-
-    public GameObject randomObject(int loc)
+    //实例化并返回随机物体如怪物，血药等  for Turnup
+    public GameObject randomObject(Transform t,int loc,ref bool isBlock)
     {
-        if (loc == entryIdex)
-            return obj[0];
-        return obj[Random.Range(1,obj.Length)];
+        GameObject others;
+        //不同级别 不同怪物道具
+        switch (level)
+        {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                {
+                    //先判断是否为出口，不为在随机返回物体
+                    if (loc == entryIdex)
+                    {            
+                        others = Instantiate(entry, t.position, t.rotation) as GameObject;
+                        others.SetActive(false);
+                        others.SetActive(true);
+                        return others;
+                    }
+                    int r = Random.Range(1, 11);
+                    if(r<=5)
+                        return Instantiate(smoke, t.position, t.rotation) as GameObject;
+                    else
+                    {//划分怪物与物品等
+                        if (r <= 7)  //为怪物
+                        {
+                            //isBlock = true;
+                            others = Instantiate(monster[Random.Range(0, monster.Length)], t.position, t.rotation) as GameObject;
+                            others.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
+                            return others;
+                        }
+                        else   //为物品
+                        {
+                            int index = Random.Range(0, obj.Length);
+                            if(index==2)
+                                isBlock = true;
+                            others = Instantiate(obj[index], t.position, t.rotation) as GameObject;
+                            others.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
+                            return others;
+                        }
+                    }
+                }
+               
+            default: return null;
+        }
     }
+   /* public GameObject randomObject(int loc)
+    {
+        //不同级别 不同怪物道具
+        switch (level)   
+        {
+            case 1:
+                {
+                    if (loc == entryIdex)
+                        return entry;
+                    return obj[Random.Range(1, obj.Length)];
+                }
+            default: return null;
+        }
+    }*/
 
 	// Update is called once per frame
 	void Update () {

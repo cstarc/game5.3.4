@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SpriteBar : MonoBehaviour {
     public SpriteRenderer barR;
+    public Text barValue;
     public Sprite barOrign;
     public bool isHealth;
     Sprite bar;
@@ -36,8 +38,10 @@ public class SpriteBar : MonoBehaviour {
     void Start () {
  
     }
-    public void updateBar( float value)
+    public void updateBar( float value,int v)
     {
+        barValue.text = ""+v; //更新bar的值
+
         int d;
         d = (int)(value * height);
         //d = height / 2;

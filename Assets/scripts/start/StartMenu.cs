@@ -14,6 +14,7 @@ public class StartMenu : MonoBehaviour {
 
     public void menuStart()   //开始
     {
+        Hero.readDateByHeroName(ChoicManager.heroChoosed);
         //animator = Instantiate(doorClose).GetComponent<Animator>();
         SceneManager.LoadScene("choic");
     }

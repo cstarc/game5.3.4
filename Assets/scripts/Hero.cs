@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿//每过一关重新加载scene
+//通过static 保存状态信息，在scene重载后保留状态
+//关闭游戏后继续开始，从当前状态信息表中读取记录当前状态，从新开始，使用初始static值
+//若重新开始，根据英雄名从初始状态信息表中读取记录初始状态计入static
+using UnityEngine;
 //using System.Collections;
 using Mono.Data.Sqlite;
 using UnityEngine.UI;
@@ -35,21 +39,18 @@ public class Hero : MonoBehaviour {
         //healthValue = maxHealthValue;
         //magicValue = maxMagicValue;
         //ghostValue = maxGhostValue;
-        Debug.Log(""+ healthValue+ magicValue+ maxMagicValue);
         hName = "";
 
         // readDate();
         initHero();
-        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue));
-        MBar.updateBar((magicValue * 1.0f / maxMagicValue));  //加上崩溃
-        GBar.updateBar((ghostValue * 1.0f / maxGhostValue));
+  
     }
 
     void initHero()
     {
 
 
-        if (!string.Equals(hName, ""))
+        if (!string.Equals(hName, ""))  //可去除
             curHeroName = hName;
         else
             curHeroName = ChoicManager.heroChoosed;
@@ -62,9 +63,12 @@ public class Hero : MonoBehaviour {
                 break;
             }
         }
-     
+        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
+        MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  //加上崩溃
+        GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
     }
 
+    //在继续游戏时读取保存数据
     public static void readDate()
     {
         //
@@ -76,7 +80,11 @@ public class Hero : MonoBehaviour {
         Debug.Log("db");
         //path = appDBPath;
 
-        using (SqliteDataReader sqReader = db.ReadFullTable("status"))    
+        //读取当前状态或初始状态
+        string table;
+        table = "status";
+
+        using (SqliteDataReader sqReader = db.ReadFullTable(table))    
         {
 
             while (sqReader.Read())
@@ -97,6 +105,43 @@ public class Hero : MonoBehaviour {
         db.CloseSqlConnection();
     }
 
+    /// <summary>
+    /// 从新开始时读取角色初始数据
+    /// </summary>
+    /// <param name="name"></param>
+    public static void readDateByHeroName(string name)
+    {
+        //
+        string appDBPath = Application.dataPath + "/mainDate.db";
+
+        //--------------------------
+
+        DbAccess db = new DbAccess("Data Source=" + appDBPath);
+        Debug.Log("db");
+        //path = appDBPath;
+
+        //读取当前状态或初始状态
+
+        using (SqliteDataReader sqReader = db.ExecuteQuery("SELECT * FROM initStatus WHERE hero='" + name+"'"))
+        {
+
+            while (sqReader.Read())
+            {
+                //if(sqReader.GetString(sqReader.GetOrdinal("hero"))==name)    //start
+
+
+                maxHealthValue = sqReader.GetInt32(sqReader.GetOrdinal("maxHealth"));
+                maxMagicValue = sqReader.GetInt32(sqReader.GetOrdinal("maxMagic"));
+                maxGhostValue = sqReader.GetInt32(sqReader.GetOrdinal("maxGhost"));
+                healthValue = sqReader.GetInt32(sqReader.GetOrdinal("curHealth"));
+                magicValue = sqReader.GetInt32(sqReader.GetOrdinal("curMagic"));
+                ghostValue = sqReader.GetInt32(sqReader.GetOrdinal("curGhost"));
+                hName = sqReader.GetString((sqReader.GetOrdinal("hero")));
+                //name = sqReader.GetString(sqReader.GetOrdinal("hero"));
+            }
+        }
+        db.CloseSqlConnection();
+    }
     public void saveDate()
     {
         //
@@ -137,7 +182,7 @@ public class Hero : MonoBehaviour {
             if (healthValue > maxHealthValue)
                 healthValue= maxHealthValue;
         }
-        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue));
+        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
        
     }
     public bool getDamagedByMonster(int att,int h)  //怪物攻击及命中
@@ -145,7 +190,6 @@ public class Hero : MonoBehaviour {
         /*闪避判断*/
         int hit = (h * (100-dodgeValue)) / 100;   //(h * (100-dodgeValue)) / 10000  因要与随机数比 *100
         int random=Random.Range(1,101);
-        Debug.Log(""+ random);
         if (random > hit)
             return false;
 
@@ -166,7 +210,7 @@ public class Hero : MonoBehaviour {
             Dead();
 
             //不死更新血量
-            HBar.updateBar(1-(healthValue*1.0f/ maxHealthValue));
+            HBar.updateBar(1-(healthValue*1.0f/ maxHealthValue), healthValue);
         }
         /*  护甲不会减
         int damage = att-armorValue;

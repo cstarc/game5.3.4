@@ -71,15 +71,12 @@ public class Fog : MonoBehaviour {
         if (isBlock)
             length = 1;
 
-        Debug.Log("ffffffff"+ length);
         for (int index = 0; index < length; index++)
         {
             if (index == 0)     //点击位置去掉全部雾
             {
                 color = fullColor;
-                Debug.Log("fddd" + pos[index]);
-                fogTable[pos[index]] = 2;
-              
+                fogTable[pos[index]] = 2;     
             }
             else
             {

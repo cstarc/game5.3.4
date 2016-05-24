@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class NextScene : MonoBehaviour {
-    public Hero hero;
     public string sceneName;
     public GameObject doorClose;
     private Animator animator;
@@ -15,8 +14,13 @@ public class NextScene : MonoBehaviour {
     void OnMouseDown()
     {
         animator=Instantiate(doorClose).GetComponent<Animator>();
-        if(string.Equals(sceneName,"scene"))
-            hero.saveDate();
+        if (string.Equals(sceneName, "scene"))
+        {
+            Manager.level++;
+            GameObject.FindGameObjectWithTag("hero").GetComponent<Hero>().saveDate();
+            if (Manager.level == 6)
+                sceneName = "Boss";
+        }
        
     }
 	// Update is called once per frame
