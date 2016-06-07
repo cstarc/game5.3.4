@@ -83,11 +83,13 @@
   <ItemGroup>
     <Compile Include="Assets\3D战争迷雾\FogOfWar3D.cs" />
     <Compile Include="Assets\scripts\Arrow.cs" />
+    <Compile Include="Assets\scripts\BagManager.cs" />
     <Compile Include="Assets\scripts\Bar.cs" />
     <Compile Include="Assets\scripts\BarContr.cs" />
     <Compile Include="Assets\scripts\Character\ChoicManager.cs" />
     <Compile Include="Assets\scripts\Character\ChooseCharacter.cs" />
     <Compile Include="Assets\scripts\DbAccess.cs" />
+    <Compile Include="Assets\scripts\Equipment.cs" />
     <Compile Include="Assets\scripts\Fog.cs" />
     <Compile Include="Assets\scripts\GetHP.cs" />
     <Compile Include="Assets\scripts\Hero.cs" />
@@ -96,10 +98,12 @@
     <Compile Include="Assets\scripts\NextScene.cs" />
     <Compile Include="Assets\scripts\SpriteBar.cs" />
     <Compile Include="Assets\scripts\StartScene.cs" />
+    <Compile Include="Assets\scripts\Treasure.cs" />
     <Compile Include="Assets\scripts\TurnUp.cs" />
     <Compile Include="Assets\scripts\choic\ToChooseHero.cs" />
     <Compile Include="Assets\scripts\doorMove.cs" />
     <Compile Include="Assets\scripts\start\StartMenu.cs" />
+    <Compile Include="Assets\scripts\treasureMansger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D战争迷雾\FogOfWar.shader" />

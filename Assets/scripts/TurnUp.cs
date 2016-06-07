@@ -107,7 +107,6 @@ public class TurnUp : MonoBehaviour
 
     public void initFog()
     {
-        Debug.Log("2");
          Fog fog = gameObject.GetComponentInParent<Fog>();
         //Fog fog = GameObject.FindGameObjectWithTag("manager").GetComponentInChildren<Fog>();
         fog.deleteFog(near, isblack);

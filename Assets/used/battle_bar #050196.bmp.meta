@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8e7b984b9aa52984cb3caeaa525eb5d6
-timeCreated: 1462003367
+timeCreated: 1464951836
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -96,181 +96,119 @@ TextureImporter:
     - name: 'battle_bar #050196_0'
       rect:
         serializedVersion: 2
-        x: 355
-        y: 233
-        width: 9
-        height: 14
+        x: 0
+        y: 227
+        width: 60
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_1'
       rect:
         serializedVersion: 2
-        x: 365
-        y: 233
-        width: 18
-        height: 18
+        x: 61
+        y: 227
+        width: 60
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_2'
       rect:
         serializedVersion: 2
-        x: 391
-        y: 227
-        width: 60
-        height: 27
+        x: 129
+        y: 233
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_3'
       rect:
         serializedVersion: 2
-        x: 452
-        y: 227
-        width: 60
-        height: 27
+        x: 148
+        y: 233
+        width: 9
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_4'
       rect:
         serializedVersion: 2
-        x: 184
-        y: 198
-        width: 30
-        height: 30
+        x: 122
+        y: 226
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_5'
       rect:
         serializedVersion: 2
-        x: 218
-        y: 199
-        width: 33
-        height: 34
+        x: 129
+        y: 209
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1.5, y: 17}
-        - {x: -16.5, y: 17}
-        - {x: -16.5, y: -5}
-        - {x: -15.5, y: -12}
-        - {x: -9.5, y: -17}
-        - {x: 16.5, y: -17}
-        - {x: 16.5, y: 12}
-        - {x: 12.5, y: 16}
+      outline: []
     - name: 'battle_bar #050196_6'
       rect:
         serializedVersion: 2
-        x: 260
+        x: 221
         y: 201
         width: 31
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_7'
       rect:
         serializedVersion: 2
-        x: 359
-        y: 209
-        width: 23
-        height: 23
+        x: 261
+        y: 199
+        width: 33
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -4.5, y: 17}
+        - {x: -12.5, y: 16}
+        - {x: -16.5, y: 11}
+        - {x: -16.5, y: -17}
+        - {x: 9.5, y: -17}
+        - {x: 11.5, y: -15}
+        - {x: 16.5, y: -1}
+        - {x: 16.5, y: 17}
     - name: 'battle_bar #050196_8'
       rect:
         serializedVersion: 2
-        x: 385
-        y: 226
-        width: 5
-        height: 5
+        x: 298
+        y: 198
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_9'
       rect:
         serializedVersion: 2
-        x: 154
-        y: 168
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_10'
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 167
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_11'
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 159
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17, y: 16.5}
-        - {x: -17, y: -6.5}
-        - {x: -12, y: -16.5}
-        - {x: 11, y: -16.5}
-        - {x: 17, y: -14.5}
-        - {x: 17, y: 10.5}
-        - {x: 9, y: 16.5}
-    - name: 'battle_bar #050196_12'
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 160
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_13'
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 183
-        width: 17
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_14'
-      rect:
-        serializedVersion: 2
-        x: 384
+        x: 0
         y: 129
         width: 128
         height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -64, y: 48}
@@ -281,301 +219,357 @@ TextureImporter:
         - {x: 42, y: 26}
         - {x: 42, y: -26}
         - {x: -42, y: -26}
-    - name: 'battle_bar #050196_15'
+    - name: 'battle_bar #050196_10'
       rect:
         serializedVersion: 2
-        x: 153
-        y: 136
+        x: 132
+        y: 183
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_11'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 160
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_12'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 158
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 17}
+        - {x: -11, y: 15}
+        - {x: -17, y: 10}
+        - {x: -17, y: -14}
+        - {x: -13, y: -17}
+        - {x: 10, y: -17}
+        - {x: 17, y: -15}
+        - {x: 17, y: 17}
+    - name: 'battle_bar #050196_13'
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 167
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_14'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 168
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_15'
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 108
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_16'
       rect:
         serializedVersion: 2
-        x: 184
-        y: 136
-        width: 30
-        height: 30
+        x: 158
+        y: 109
+        width: 28
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_17'
       rect:
         serializedVersion: 2
-        x: 218
-        y: 118
-        width: 33
-        height: 33
+        x: 187
+        y: 108
+        width: 27
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 16.5}
-        - {x: -16.5, y: -5.5}
-        - {x: -15.5, y: -12.5}
-        - {x: -8.5, y: -16.5}
-        - {x: 16.5, y: -16.5}
-        - {x: 16.5, y: 14.5}
-        - {x: 9.5, y: 16.5}
+      outline: []
     - name: 'battle_bar #050196_18'
       rect:
         serializedVersion: 2
-        x: 259
+        x: 220
         y: 118
         width: 33
         height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 9.5}
-        - {x: -16.5, y: -15.5}
-        - {x: -14.5, y: -18.5}
-        - {x: 8.5, y: -18.5}
-        - {x: 16.5, y: -16.5}
-        - {x: 16.5, y: 15.5}
-        - {x: 15.5, y: 18.5}
-        - {x: -6.5, y: 18.5}
-        - {x: -15.5, y: 14.5}
+      - - {x: -16.5, y: 13.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -13.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 16.5, y: 9.5}
+        - {x: 15.5, y: 14.5}
+        - {x: 8.5, y: 18.5}
+        - {x: -8.5, y: 18.5}
+        - {x: -12.5, y: 17.5}
     - name: 'battle_bar #050196_19'
       rect:
         serializedVersion: 2
-        x: 298
-        y: 108
-        width: 25
-        height: 73
+        x: 261
+        y: 117
+        width: 33
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -4.5, y: 17}
+        - {x: -12.5, y: 16}
+        - {x: -16.5, y: 11}
+        - {x: -16.5, y: -17}
+        - {x: 9.5, y: -17}
+        - {x: 11.5, y: -15}
+        - {x: 16.5, y: -1}
+        - {x: 16.5, y: 17}
     - name: 'battle_bar #050196_20'
       rect:
         serializedVersion: 2
-        x: 328
-        y: 109
-        width: 24
-        height: 73
+        x: 298
+        y: 136
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_21'
       rect:
         serializedVersion: 2
-        x: 356
-        y: 108
-        width: 25
-        height: 73
+        x: 329
+        y: 136
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_22'
       rect:
         serializedVersion: 2
-        x: 153
-        y: 105
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_23'
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 105
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_24'
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 78
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_25'
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 78
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_26'
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 33
-        width: 25
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: 'battle_bar #050196_27'
-      rect:
-        serializedVersion: 2
-        x: 384
+        x: 0
         y: 0
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -64, y: 64}
         - {x: -64, y: -64}
         - {x: 64, y: -64}
         - {x: 64, y: 64}
-    - name: 'battle_bar #050196_28'
+    - name: 'battle_bar #050196_23'
       rect:
         serializedVersion: 2
-        x: 153
-        y: 74
+        x: 158
+        y: 33
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_24'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 78
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_25'
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 78
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_26'
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 105
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_27'
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 105
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 'battle_bar #050196_28'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 33
+        width: 24
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_29'
       rect:
         serializedVersion: 2
-        x: 184
-        y: 74
-        width: 30
-        height: 30
+        x: 190
+        y: 33
+        width: 23
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_30'
       rect:
         serializedVersion: 2
-        x: 299
-        y: 33
-        width: 23
-        height: 69
+        x: 298
+        y: 74
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_31'
       rect:
         serializedVersion: 2
-        x: 357
-        y: 33
-        width: 23
-        height: 71
+        x: 329
+        y: 74
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_32'
       rect:
         serializedVersion: 2
-        x: 10
-        y: 33
-        width: 30
-        height: 30
+        x: 129
+        y: 0
+        width: 284
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -142, y: 16}
+        - {x: -142, y: -13}
+        - {x: -140, y: -16}
+        - {x: 142, y: -16}
+        - {x: 142, y: 16}
     - name: 'battle_bar #050196_33'
       rect:
         serializedVersion: 2
-        x: 41
-        y: 33
-        width: 30
-        height: 30
+        x: 220
+        y: 37
+        width: 33
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_34'
       rect:
         serializedVersion: 2
-        x: 72
-        y: 33
-        width: 30
-        height: 30
+        x: 262
+        y: 37
+        width: 31
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_35'
       rect:
         serializedVersion: 2
-        x: 89
-        y: 0
-        width: 294
-        height: 46
+        x: 303
+        y: 36
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 119, y: 23}
-        - {x: 119, y: 10}
-        - {x: 121, y: 8}
-        - {x: -53, y: 23}
-        - {x: -147, y: 23}
-        - {x: -147, y: -16}
-        - {x: -135, y: -23}
-        - {x: 147, y: -23}
-        - {x: 147, y: 23}
-      - - {x: 61, y: 23}
-        - {x: 61, y: 10}
-        - {x: 62, y: 8}
-        - {x: 116, y: 8}
-        - {x: 118, y: 11}
-        - {x: 118, y: 23}
-      - - {x: -60, y: 23}
-        - {x: -60, y: 18}
-        - {x: -50, y: 11}
-        - {x: -41, y: 11}
-        - {x: -37, y: 12}
-        - {x: -26, y: 22}
-        - {x: -26, y: 23}
-      - - {x: -16, y: 23}
-        - {x: -16, y: 15}
-        - {x: -10, y: 12}
-        - {x: 10, y: 12}
-        - {x: 11, y: 13}
-        - {x: 15, y: 20}
-        - {x: 15, y: 23}
-      - - {x: 22, y: 23}
-        - {x: 23, y: 19}
-        - {x: 29, y: 12}
-        - {x: 47, y: 12}
-        - {x: 56, y: 22}
-        - {x: 56, y: 23}
+      - - {x: -15, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 9}
+        - {x: 9, y: 16}
     - name: 'battle_bar #050196_36'
       rect:
         serializedVersion: 2
-        x: 103
+        x: 339
+        y: 33
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
+    - name: 'battle_bar #050196_37'
+      rect:
+        serializedVersion: 2
+        x: 375
         y: 33
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -15, y: 17}
@@ -583,81 +577,59 @@ TextureImporter:
         - {x: -17, y: -17}
         - {x: 17, y: -17}
         - {x: 17, y: 17}
-    - name: 'battle_bar #050196_37'
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 33
-        width: 35
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17.5, y: 17.5}
-        - {x: -17.5, y: -17.5}
-        - {x: 17.5, y: -17.5}
-        - {x: 17.5, y: 17.5}
     - name: 'battle_bar #050196_38'
       rect:
         serializedVersion: 2
-        x: 177
-        y: 36
-        width: 32
-        height: 32
+        x: 410
+        y: 33
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -15}
-        - {x: 16, y: 13}
-        - {x: 15, y: 16}
-        - {x: -14, y: 16}
-        - {x: -16, y: 12}
+      outline: []
     - name: 'battle_bar #050196_39'
       rect:
         serializedVersion: 2
-        x: 219
-        y: 37
-        width: 31
-        height: 31
+        x: 441
+        y: 33
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_40'
       rect:
         serializedVersion: 2
-        x: 259
-        y: 37
-        width: 33
-        height: 31
+        x: 472
+        y: 33
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_41'
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 30
-        height: 30
+        x: 414
+        y: 1
+        width: 60
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: 'battle_bar #050196_42'
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1
-        width: 60
-        height: 27
+        x: 475
+        y: 0
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

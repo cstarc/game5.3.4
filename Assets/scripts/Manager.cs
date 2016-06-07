@@ -51,7 +51,7 @@ public class Manager : MonoBehaviour {
             if (entryIdex != first)
                 break;
         }
-        Debug.Log("entryIdex" + entryIdex);
+        //Debug.Log("entryIdex" + entryIdex);
     }
 
     //实例化并返回随机物体如怪物，血药等  for Turnup
