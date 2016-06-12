@@ -6,6 +6,8 @@ using UnityEngine;
 //using System.Collections;
 using Mono.Data.Sqlite;
 using UnityEngine.UI;
+using System.Collections.Generic;
+
 public class Hero : MonoBehaviour {
     static string hName;
     public static int attackValue=10;       //攻击力
@@ -68,7 +70,15 @@ public class Hero : MonoBehaviour {
         GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
     }
 
-    //在继续游戏时读取保存数据
+
+
+    public static void updateProperty(Dictionary<string, int> dic,bool isAdd=true)
+    {
+
+    }
+    /// <summary>
+    /// 在继续游戏时读取保存数据
+    /// </summary>
     public static void readDate()
     {
         //
@@ -98,7 +108,11 @@ public class Hero : MonoBehaviour {
                 healthValue = sqReader.GetInt32(sqReader.GetOrdinal("curHealth"));
                 magicValue = sqReader.GetInt32(sqReader.GetOrdinal("curMagic"));
                 ghostValue = sqReader.GetInt32(sqReader.GetOrdinal("curGhost"));
-                hName = sqReader.GetString((sqReader.GetOrdinal("hero")));
+                armorValue = sqReader.GetInt32(sqReader.GetOrdinal("armorValue"));
+                dodgeValue = sqReader.GetInt32(sqReader.GetOrdinal("dodgeValue"));
+                hitValue = sqReader.GetInt32(sqReader.GetOrdinal("hitValue"));
+  
+
                 //name = sqReader.GetString(sqReader.GetOrdinal("hero"));
             }
         }
@@ -111,38 +125,37 @@ public class Hero : MonoBehaviour {
     /// <param name="name"></param>
     public static void readDateByHeroName(string name)
     {
-        //
         string appDBPath = Application.dataPath + "/mainDate.db";
-
         //--------------------------
 
         DbAccess db = new DbAccess("Data Source=" + appDBPath);
-        Debug.Log("db");
-        //path = appDBPath;
 
         //读取当前状态或初始状态
-
         using (SqliteDataReader sqReader = db.ExecuteQuery("SELECT * FROM initStatus WHERE hero='" + name+"'"))
-        {
-
+        {           
             while (sqReader.Read())
             {
                 //if(sqReader.GetString(sqReader.GetOrdinal("hero"))==name)    //start
-
-
                 maxHealthValue = sqReader.GetInt32(sqReader.GetOrdinal("maxHealth"));
                 maxMagicValue = sqReader.GetInt32(sqReader.GetOrdinal("maxMagic"));
                 maxGhostValue = sqReader.GetInt32(sqReader.GetOrdinal("maxGhost"));
                 healthValue = sqReader.GetInt32(sqReader.GetOrdinal("curHealth"));
                 magicValue = sqReader.GetInt32(sqReader.GetOrdinal("curMagic"));
                 ghostValue = sqReader.GetInt32(sqReader.GetOrdinal("curGhost"));
+                armorValue = sqReader.GetInt32(sqReader.GetOrdinal("armorValue"));
+                dodgeValue = sqReader.GetInt32(sqReader.GetOrdinal("dodgeValue"));
+                hitValue = sqReader.GetInt32(sqReader.GetOrdinal("hitValue"));
                 hName = sqReader.GetString((sqReader.GetOrdinal("hero")));
                 //name = sqReader.GetString(sqReader.GetOrdinal("hero"));
             }
         }
         db.CloseSqlConnection();
     }
-    public void saveDate()
+
+    /// <summary>
+    /// 保存角色数据，在NextScene调用
+    /// </summary>
+    public  void saveDate()
     {
         //
         string appDBPath = Application.dataPath + "/mainDate.db";
@@ -150,15 +163,19 @@ public class Hero : MonoBehaviour {
         //--------------------------
 
         DbAccess db = new DbAccess(@"Data Source=" + appDBPath);
-        Debug.Log("db");
+       
         //path = appDBPath;
 
-        db.UpdateInto("status", new string[] { "maxHealth", "maxMagic", "maxGhost", "curHealth", "curMagic", "curGhost","hero" },
-            new string[] { maxHealthValue.ToString(), maxMagicValue.ToString(), maxGhostValue.ToString(), healthValue.ToString(),
-            magicValue.ToString(),ghostValue.ToString(),"'"+curHeroName+"'"},"rowid","1");
+        db.UpdateInto("status", new string[] { "maxHealth", "maxMagic", "maxGhost", "curHealth", "curMagic",
+            "curGhost","hero" , "armorValue", "dodgeValue", "hitValue" },
+            new string[] { maxHealthValue.ToString(), maxMagicValue.ToString(), maxGhostValue.ToString(),
+                healthValue.ToString(), magicValue.ToString(),ghostValue.ToString(),"'"+curHeroName+"'",
+                armorValue.ToString(),dodgeValue.ToString(),hitValue.ToString()},"rowid","1");
 
         db.CloseSqlConnection();
     }
+
+
     public int getAttackValue()
     {
         return attackValue;

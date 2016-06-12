@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class TurnUp : MonoBehaviour
@@ -13,7 +14,6 @@ public class TurnUp : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        Debug.Log("start");
         isblack = false;
         calculateNear();//计算near
        // smoke = Resources.Load("smoke") as GameObject;
@@ -113,9 +113,21 @@ public class TurnUp : MonoBehaviour
     }
     void OnMouseDown()
     {
-        
-        // Fog fog= gameObject.GetComponentInParent<Fog>();
-        Fog fog = gameObject.GetComponentInParent<Fog>();
+        /*Debug.Log("event"+EventSystem.current.IsPointerOverGameObject());
+        *if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
+*#if IPHONE || ANDROID
+*			if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+*#else
+ *       if (!EventSystem.current.IsPointerOverGameObject())
+*#endif
+  *      {
+  *          Debug.Log(EventSystem.current.IsPointerOverGameObject());
+  *          return;
+  *      }
+            */
+
+                // Fog fog= gameObject.GetComponentInParent<Fog>();
+                Fog fog = gameObject.GetComponentInParent<Fog>();
         if (!fog.canDeleteFog(near[0]))  //点在black or white
             return;
 

@@ -11,8 +11,9 @@ public class Treasure : MonoBehaviour {
 
     void OnMouseDown()
     {
-         GameObject.FindGameObjectWithTag("manager").transform.Find("grayMask").gameObject.SetActive(true);
+        // GameObject.FindGameObjectWithTag("manager").transform.Find("grayMask").gameObject.SetActive(true);
         GameObject.FindGameObjectWithTag("HUD").transform.Find("treasure").gameObject.SetActive(true);
+        treasureMansger.setCurTreasure(gameObject);
         //transform.FindGameObjectWithTag("treasure").SetActive(true);
     }
 

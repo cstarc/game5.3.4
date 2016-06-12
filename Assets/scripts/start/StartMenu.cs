@@ -23,6 +23,7 @@ public class StartMenu : MonoBehaviour {
     {
         //animator = Instantiate(doorClose).GetComponent<Animator>();
         Hero.readDate();
+        BagManager.read();
         SceneManager.LoadScene("scene");
     }
     public void menuExit()   //结束退出

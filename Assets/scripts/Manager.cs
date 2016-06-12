@@ -85,7 +85,7 @@ public class Manager : MonoBehaviour {
                         {
                             //isBlock = true;
                             others = Instantiate(monster[Random.Range(0, monster.Length)], t.position, t.rotation) as GameObject;
-                            others.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
+                            others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下，为了显示怪物属性
                             return others;
                         }
                         else   //为物品
@@ -94,7 +94,7 @@ public class Manager : MonoBehaviour {
                             if(index==2)
                                 isBlock = true;
                             others = Instantiate(obj[index], t.position, t.rotation) as GameObject;
-                            others.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
+                            others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下，为了显示怪物属性
                             return others;
                         }
                     }

@@ -97,10 +97,10 @@ public class DbAccess
         /// <returns></returns>
         public SqliteDataReader InsertInto(string tableName, string[] values)
         {
-            string query = "INSERT INTO " + tableName + " VALUES ('" + values[0] + "'";
+            string query = "INSERT INTO " + tableName + " VALUES (" + values[0] + "";
             for (int i = 1; i < values.Length; ++i)
             {
-                query += ",'" + values[i] + "'";
+                query += "," + values[i] + "";
             }
             query += ")";
             return ExecuteQuery(query);

@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 96af9e974d7291b46a467c818c5ce7b8
-timeCreated: 1464933214
+timeCreated: 1465570638
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: equipment_0
-    21300002: equipment_1
+    21300002: glove1
     21300004: equipment_2
-    21300006: equipment_3
+    21300006: shield1
     21300008: equipment_4
     21300010: equipment_5
     21300012: equipment_6
@@ -18,18 +18,18 @@ TextureImporter:
     21300022: equipment_11
     21300024: equipment_12
     21300026: equipment_13
-    21300028: equipment_14
+    21300028: shoe1
     21300030: equipment_15
     21300032: equipment_16
     21300034: equipment_17
     21300036: equipment_18
-    21300038: equipment_19
-    21300040: equipment_20
+    21300038: ring1
+    21300040: clothers1
     21300042: equipment_21
     21300044: equipment_22
     21300046: equipment_23
     21300048: equipment_24
-    21300050: equipment_25
+    21300050: weapon1
     21300052: equipment_26
     21300054: equipment_27
     21300056: equipment_28
@@ -57,7 +57,7 @@ TextureImporter:
     21300100: equipment_50
     21300102: equipment_51
     21300104: equipment_52
-    21300106: equipment_53
+    21300106: weapon2
     21300108: equipment_54
     21300110: equipment_55
     21300112: equipment_56
@@ -78,7 +78,7 @@ TextureImporter:
     21300142: equipment_71
     21300144: equipment_72
     21300146: equipment_73
-    21300148: equipment_74
+    21300148: hat1
     21300150: equipment_75
     21300152: equipment_76
     21300154: equipment_77
@@ -153,18 +153,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: equipment_0
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 206
-        width: 30
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_1
+    - name: glove1
       rect:
         serializedVersion: 2
         x: 108
@@ -172,21 +161,10 @@ TextureImporter:
         width: 27
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_2
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 204
-        width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_3
+    - name: shield1
       rect:
         serializedVersion: 2
         x: 175
@@ -194,120 +172,10 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_4
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 207
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_5
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 205
-        width: 21
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_6
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 207
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_7
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 207
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_8
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 204
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_9
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 208
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_10
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 205
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_11
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 206
-        width: 30
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_12
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 205
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_13
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 170
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_14
+    - name: shoe1
       rect:
         serializedVersion: 2
         x: 39
@@ -315,54 +183,10 @@ TextureImporter:
         width: 30
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_15
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 171
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_16
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 171
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_17
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 170
-        width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_18
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 173
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_19
+    - name: ring1
       rect:
         serializedVersion: 2
         x: 212
@@ -370,10 +194,10 @@ TextureImporter:
         width: 24
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_20
+    - name: clothers1
       rect:
         serializedVersion: 2
         x: 244
@@ -381,54 +205,10 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_21
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 176
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_22
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 172
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_23
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 171
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_24
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 173
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_25
+    - name: weapon1
       rect:
         serializedVersion: 2
         x: 414
@@ -436,321 +216,10 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_26
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 172
-        width: 27
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_27
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 174
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_28
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 143
-        width: 32
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_29
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 137
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_30
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 143
-        width: 31
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_31
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 137
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_32
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 139
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_33
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 137
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_34
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 139
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_35
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 136
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_36
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 138
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_37
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 139
-        width: 26
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_38
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 136
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -11}
-        - {x: -16, y: -16}
-        - {x: -4, y: -16}
-        - {x: 16, y: 1}
-        - {x: 16, y: 16}
-        - {x: -4, y: 16}
-    - name: equipment_39
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 139
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_40
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 137
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_41
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 140
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_42
-      rect:
-        serializedVersion: 2
-        x: 483
-        y: 139
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_43
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 103
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_44
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 104
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_45
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 103
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_46
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 102
-        width: 23
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_47
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 107
-        width: 32
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_48
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 105
-        width: 26
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_49
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 105
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_50
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 102
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -11}
-        - {x: -15, y: -16}
-        - {x: 12, y: -16}
-        - {x: 16, y: -10}
-        - {x: 16, y: 11}
-        - {x: 13, y: 16}
-    - name: equipment_51
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 110
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_52
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 104
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_53
+    - name: weapon2
       rect:
         serializedVersion: 2
         x: 345
@@ -758,251 +227,10 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: equipment_54
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 104
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_55
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 105
-        width: 28
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_56
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 102
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -10, y: 14}
-        - {x: -16, y: -8}
-        - {x: -16, y: -16}
-        - {x: -8, y: -16}
-        - {x: 16, y: -4}
-        - {x: 16, y: 16}
-    - name: equipment_57
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 104
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_58
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 73
-        width: 30
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_59
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 74
-        width: 32
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_60
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 69
-        width: 32
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_61
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 72
-        width: 32
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_62
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 68
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_63
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 72
-        width: 25
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_64
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 70
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_65
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 74
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_66
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 70
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_67
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 71
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_68
-      rect:
-        serializedVersion: 2
-        x: 347
-        y: 71
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_69
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 70
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_70
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 69
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_71
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 68
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -13, y: 13}
-        - {x: -16, y: -2}
-        - {x: -16, y: -16}
-        - {x: -2, y: -16}
-        - {x: 16, y: -8}
-        - {x: 16, y: 9}
-        - {x: 13, y: 16}
-    - name: equipment_72
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 68
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: -3}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 14}
-        - {x: 13, y: 16}
-    - name: equipment_73
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 38
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_74
+    - name: hat1
       rect:
         serializedVersion: 2
         x: 42
@@ -1010,327 +238,7 @@ TextureImporter:
         width: 23
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_75
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 36
-        width: 22
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_76
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 34
-        width: 26
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_77
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 38
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_78
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 37
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_79
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 7}
-        - {x: 10, y: 16}
-    - name: equipment_80
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 38
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_81
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 37
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_82
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 35
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_83
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 36
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_84
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 35
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_85
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 35
-        width: 20
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_86
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 35
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_87
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 35
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_88
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -7}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: equipment_89
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_90
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 2
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_91
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 1
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_92
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 2
-        width: 23
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_93
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 1
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_94
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 0
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_95
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 3
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_96
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_97
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 3
-        width: 25
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_98
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 6
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_99
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 2
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_100
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 5
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_101
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 1
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: equipment_102
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 4
-        width: 27
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

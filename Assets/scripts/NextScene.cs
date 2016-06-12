@@ -18,6 +18,7 @@ public class NextScene : MonoBehaviour {
         {
             Manager.level++;
             GameObject.FindGameObjectWithTag("hero").GetComponent<Hero>().saveDate();
+            BagManager.save();
             if (Manager.level == 6)
                 sceneName = "Boss";
         }
