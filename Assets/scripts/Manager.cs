@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Manager : MonoBehaviour {
-    int[] map;
+    int[] map;   //floor 纹理下标
     public static int level=1;
     public int rows;
     public int cols;
@@ -12,7 +12,8 @@ public class Manager : MonoBehaviour {
     public GameObject smoke;
     public GameObject entry;
 
-    public GameObject[] monster;    
+    public GameObject[] monster;
+    public GameObject block; 
    // public GameObject[] elite;          //精英怪
    // public GameObject[] boss;           //boss 
    // public GameObject[] others;
@@ -27,7 +28,10 @@ public class Manager : MonoBehaviour {
         initMap();
        // Debug.Log(" c:"+c.aspect);
     }
-
+    public static void clear()
+    {
+        level = 1;
+    }
     //initilize map
     void initMap()
     {
@@ -76,30 +80,66 @@ public class Manager : MonoBehaviour {
                         others.SetActive(false);
                         others.SetActive(true);
                         others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下
+
+                        //播放音效
+                        //others.GetComponent<AudioSource>().Play();
                         return others;
                     }
                     int r = Random.Range(1, 11);
-                    if(r<=5)
-                        return Instantiate(smoke, t.position, t.rotation) as GameObject;
+                    if (r <= 6)
+                    {
+                        others = Instantiate(smoke, t.position, t.rotation) as GameObject;
+                        //播放音效
+                       // others.GetComponent<AudioSource>().Play();
+                        return others;
+
+                    }
                     else
                     {//划分怪物与物品等
-                        if (r <= 7)  //为怪物
+                        if (r <= 8)  //为怪物
                         {
                             //isBlock = true;
                             others = Instantiate(monster[Random.Range(0, monster.Length)], t.position, t.rotation) as GameObject;
                             others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下，为了显示怪物属性
+                            others.GetComponent<Monster>().setLevel(level);
 
+                            //播放音效
+                            // others.GetComponent<AudioSource>().Play();
                             //创建阻挡区
-
+                            GameObject gm;
+                            Fog fog = gameObject.GetComponent<Fog>();
+                            int[] locs;
+                            if (loc % cols == 0)
+                            {
+                                locs = new int[] { loc - cols, loc - cols + 1, loc + 1, loc + cols, loc + cols + 1 };
+                            }
+                            else
+                              if(loc % cols ==cols-1)
+                                  locs = new int[] { loc - cols, loc - cols - 1, loc - 1, loc + cols, loc + cols - 1 };
+                              else
+                                  locs = new int[] { loc - cols - 1, loc - cols, loc - cols + 1, loc - 1, loc + 1, loc + cols - 1, loc + cols, loc + cols + 1 };
+                            for (int i = 0; i < locs.Length; i++)
+                            {
+                    
+                                if (fog.hasFog(locs[i]))
+                                {
+                                    Debug.Log("" + locs[i]);
+                                    gm = Instantiate(block, floor[locs[i]].transform.position, floor[locs[i]].transform.rotation) as GameObject;
+                                    gm.transform.parent = others.transform;
+                                }
+                            }
                             return others;
                         }
                         else   //为物品
                         {
                             int index = Random.Range(0, obj.Length);
-                            if(index==2)
+                            if (index == 2)
                                 isBlock = true;
                             others = Instantiate(obj[index], t.position, t.rotation) as GameObject;
                             others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下，为了显示怪物属性
+                          
+                            //播放音效
+                            //others.GetComponent<AudioSource>().Play();
                             return others;
                         }
                     }
@@ -107,6 +147,12 @@ public class Manager : MonoBehaviour {
                
             default: return null;
         }
+    }
+
+
+    void creatBlock()
+    {
+
     }
    /* public GameObject randomObject(int loc)
     {

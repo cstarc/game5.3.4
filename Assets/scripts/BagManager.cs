@@ -11,11 +11,12 @@ public class BagManager : MonoBehaviour {
     public SpriteRenderer[] usedEquipmet;    //穿戴装备
     public static bool[] cell = new bool[12];     //储物格存放状态
     public static string[] names = new string[7];   //存放已装备物品名字
-    public static Dictionary<int, string> information=new Dictionary<int, string>();  //储物格中装备信息
+    public static Dictionary<int, string> information = new Dictionary<int, string>();  //储物格中装备信息
     public Text wearedProperty; //已装备属性
     public Text curProperty;   //待装备属性
-    static bool isNew = true; 
+    static bool isNew = true;
     bool active;   //背包是否打开
+    int currentEquipment; //当前选中装备
     GameObject floor;
     static string[] wearLocation = { "weapon", "shield", "clothers", "hat", "glove", "ring", "shoe" };
     // Use this for initialization
@@ -25,14 +26,14 @@ public class BagManager : MonoBehaviour {
         //Debug.Log(""+cell[1]);
         if (!isNew)
         {
-          
+
             for (int index = 0; index < names.Length; index++)
             {//wear
-                if (names[index]!= null&& !names[index].Equals(""))
+                if (names[index] != null && !names[index].Equals(""))
                 {
 
                     //usedEquipmet[index].sprite = Resources.Load<Sprite>("sprite/" + names[index]);// LoadAll<Sprite>("sprite/equipment");
-                    Sprite[] equip=Resources.LoadAll<Sprite>("sprite/equipment");
+                    Sprite[] equip = Resources.LoadAll<Sprite>("sprite/equipment");
                     foreach (Sprite s in equip)
                         if (s.name.Equals(names[index]))
                             usedEquipmet[index].sprite = s;
@@ -56,18 +57,54 @@ public class BagManager : MonoBehaviour {
         }
     }
 
+
+    public static void clear()
+    {
+        cell= new bool[12];
+        names=new string[7];
+        information.Clear();
+        isNew = true;
+    }
     void Start()
     {
         Debug.Log("start");
 
     }
 
+    public void dropEquipment()
+    {
+        if (currentEquipment >= 0)
+        {
+            cellSprites[currentEquipment].sprite = null;
+            cell[currentEquipment] = false;
+            information.Remove(currentEquipment);
+            cellSprites[currentEquipment].gameObject.GetComponent<Equipment>().clear();
+        }
+        else
+        {
+            int index = currentEquipment * (-1) - 1;
+            usedEquipmet[index].sprite = null;
+            names[index] = "";
+            usedEquipmet[index].gameObject.GetComponent<Equipment>().clear();
+
+        }
+        hideProperty();
+    }
+    /// <summary>
+    /// 隐藏装备属性面板
+    /// </summary>
+    public void hideProperty()
+    {
+        wearedProperty.gameObject.transform.parent.gameObject.SetActive(false);
+        curProperty.gameObject.transform.parent.gameObject.SetActive(false);
+    }
     /// <summary>
     /// 点击已装备的装备显示此装备信息
     /// </summary>
     /// <param name="dic"></param>
-    public void showProperty(Dictionary<string, int> dic)
+    public void showProperty(Dictionary<string, int> dic,int location)
     {
+        currentEquipment = location;  ////储物当前显示属性的装备位置
         hideProperty();
         wearedProperty.gameObject.transform.parent.gameObject.SetActive(true);
         string text="";
@@ -80,18 +117,15 @@ public class BagManager : MonoBehaviour {
     }
 
 
-    public void hideProperty()
-    {
-        wearedProperty.gameObject.transform.parent.gameObject.SetActive(false);
-        curProperty.gameObject.transform.parent.gameObject.SetActive(false);
-    }
+  
     /// <summary>
     /// 点击储物格装备显示已装备信息与当前装备信息
     /// </summary>
     /// <param name="wear"></param>
     /// <param name="cur"></param>
-    public void showProperty(Dictionary<string, int> wear, Dictionary<string, int> cur)
+    public void showProperty(Dictionary<string, int> wear, Dictionary<string, int> cur,int location)
     {
+        currentEquipment = location;  //储物当前显示属性的装备位置
         hideProperty();
         string text = "";
         if (wear.Count > 0)
@@ -127,14 +161,16 @@ public class BagManager : MonoBehaviour {
             active = true;
             spriteRenderer.sprite = sprite[0];
             floor = GameObject.FindGameObjectWithTag("manager");
-            floor.SetActive(false);
+            if(floor!=null)
+              floor.SetActive(false);
         }
         else
         {
             gameObject.SetActive(false);
             active = false;
             spriteRenderer.sprite = sprite[1];
-            floor.SetActive(true);
+            if (floor != null)
+                floor.SetActive(true);
         }
     }
 

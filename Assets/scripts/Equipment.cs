@@ -17,7 +17,7 @@ public class Equipment : MonoBehaviour {
     public int location; //格子位置
     float minDistance;
     Vector3 orignPosition;   //初始位置
-    Vector3[] postion;
+    Vector3[] postion;     //存放可放置装备的格子位置
 
     public Vector3 wearPosition;   //wear位置  swap
     string equipmentName;  //
@@ -44,6 +44,14 @@ public class Equipment : MonoBehaviour {
        // information = new Dictionary<string, int>();
     }
 
+
+    public void clear()
+    {
+        wear = null;
+        equipmentName = null;
+        hero.updateProperty(information, false);
+        information.Clear();
+    }
     /// <summary>
     /// 计算平方根
     /// </summary>
@@ -98,10 +106,10 @@ public class Equipment : MonoBehaviour {
 
             if (transform.position == orignPosition)
                 if(location<0) //点击的是未装备的还是已装备的
-                    GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().showProperty(information);
+                    GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().showProperty(information,location);
                 else
                     GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().showProperty(
-                        wear.gameObject.GetComponent<Equipment>().information, information);
+                        wear.gameObject.GetComponent<Equipment>().information, information, location);
             else
                 dragMoveing();
         }

@@ -8,33 +8,74 @@ public class Monster : MonoBehaviour {
     public int armorValue;                     //护甲值
     public int dodgeRate;                     //闪避值
     public int hitRate;                       //命中值
-    public int MagicResistanceValue;           //魔法抗性 
+    //public int MagicResistanceValue;           //魔法抗性 
     public Text health;
     public Text attack;
     public Text armor;
     public bool ignoreArmor;                  //穿透护甲    
-    public GameObject treasure;                 
+    public GameObject treasure;
+    bool hasArmor;   
+    public bool isBoss;         
     // Use this for initialization
     void Start () {
+        hasArmor = true;
         //attack.text = ""+attackValue;
         //health.text = "" + healthValue;
+        updateStatus();
+
+    }
+
+    /// <summary>
+    /// 更新怪物状态
+    /// </summary>
+    void updateStatus()
+    {
         updateHealth();
         updateAttack();
-        if (armorValue != 0)
-            updateArmor();
+        updateArmor();
+
     }
+
+    /// <summary>
+    /// 显示各属性
+    /// </summary>
     void updateHealth()
     {
         health.text = "" + healthValue;
     }
     void updateArmor()
     {
-        armor.text = "" + armorValue;
-    }
+        if (armorValue == 0)
+        {
+            armor.gameObject.transform.parent.gameObject.SetActive(false);
+            hasArmor = false;
+            return;
+        }
+        if (!hasArmor)
+            if (armorValue > 0)
+            {
+                armor.gameObject.transform.parent.gameObject.SetActive(true);
+                armor.text = "" + armorValue;
+            }
+
+    }      
     void updateAttack()
     {
         attack.text = "" + attackValue;
     }
+
+    /// <summary>
+    /// 根据当前关卡等级设置怪物属性
+    /// </summary>
+    /// <param name="level"></param>
+    public void setLevel(int level)
+    {
+        attackValue +=Random.Range(level,level*3);                    
+        healthValue += Random.Range(level, level * 3);                    
+        armorValue += Random.Range(level, level * 3);
+        updateStatus();
+    }
+
     void OnMouseDown()
     {
         Hero hero= GameObject.Find("heroPanel").GetComponent<Hero>();
@@ -102,10 +143,14 @@ public class Monster : MonoBehaviour {
     {
         if (healthValue < 0)
         {
-            if (Random.Range(0, 11) < 11)
+            if (Random.Range(0, 11) < 11 && !isBoss)
             {//获得奖励
                 GameObject obj = Instantiate(treasure, transform.position, transform.rotation) as GameObject;
                 obj.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下       
+            }
+            else
+            {
+                treasure.SetActive(true);
             }
             Destroy(gameObject);
         }

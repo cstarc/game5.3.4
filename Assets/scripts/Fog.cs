@@ -12,7 +12,7 @@ public class Fog : MonoBehaviour {
     int height;
     int rows = 7;
     int cols = 7;
-    int[] fogTable;  //mark fog state   0 black  1 halfClear  2 fullClear
+    public int[] fogTable;  //mark fog state   0 black  1 halfClear  2 fullClear
 
     void Awake()
     {
@@ -30,6 +30,15 @@ public class Fog : MonoBehaviour {
 
         initalize();
     }
+    public bool hasFog(int index)
+    {
+
+        if (index < 0 || index > (rows * cols - 1))
+            return false;
+        if (fogTable[index] < 2)
+            return true;
+        return false;
+    }
     // Use this for initialization
     void Start () {
 
@@ -37,7 +46,6 @@ public class Fog : MonoBehaviour {
 
 
     }
-
     public void initalize()
     {
         //实例化以防修改源资源 ???

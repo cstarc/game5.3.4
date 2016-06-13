@@ -134,9 +134,6 @@
     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\3D战争迷雾\FogOfWar.shader" />
-    <None Include="Assets\3D战争迷雾\FogOfWarCast.shader" />
-    <None Include="Assets\3D战争迷雾\ReadMe.txt" />
     <None Include="Assets\Readme\readme.txt" />
     <None Include="Assets\Resources\Shader\CFXM_MobileParticleAdd_Alpha8 #050269.txt" />
     <None Include="Assets\Resources\Shader\CustomMaskShader.shader" />

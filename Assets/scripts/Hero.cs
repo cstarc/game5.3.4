@@ -37,6 +37,7 @@ public class Hero : MonoBehaviour {
     string curHeroName;
     public Text attack;    //显示攻击力
     public Text armor;    //显示护甲
+    public GameObject end;
     // Use this for initialization
     void Start () {
         // Hbar=gameObject.getGetComponentsInChildren<Hbar>
@@ -283,11 +284,15 @@ public class Hero : MonoBehaviour {
     void Dead()
     {
         if (healthValue < 0)
-            ;
+        {
+            healthValue = 0;
+            end.SetActive(true);
+        }
     }
     // Update is called once per frame
     void Update () {
-	
 
-	}
+
+
+    }
 }
