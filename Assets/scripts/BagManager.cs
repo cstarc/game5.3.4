@@ -2,6 +2,7 @@
 using System.Collections;
 using Mono.Data.Sqlite;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class BagManager : MonoBehaviour {
     public SpriteRenderer spriteRenderer;   //用来打开关闭背包效果
@@ -11,8 +12,10 @@ public class BagManager : MonoBehaviour {
     public static bool[] cell = new bool[12];     //储物格存放状态
     public static string[] names = new string[7];   //存放已装备物品名字
     public static Dictionary<int, string> information=new Dictionary<int, string>();  //储物格中装备信息
+    public Text wearedProperty; //已装备属性
+    public Text curProperty;   //待装备属性
     static bool isNew = true; 
-    bool active;
+    bool active;   //背包是否打开
     GameObject floor;
     static string[] wearLocation = { "weapon", "shield", "clothers", "hat", "glove", "ring", "shoe" };
     // Use this for initialization
@@ -20,23 +23,21 @@ public class BagManager : MonoBehaviour {
 
         active = false;
         //Debug.Log(""+cell[1]);
-        Debug.Log("isNew00");
         if (!isNew)
         {
           
-            Debug.Log("isNew0");
             for (int index = 0; index < names.Length; index++)
             {//wear
                 if (names[index]!= null&& !names[index].Equals(""))
                 {
-                    Debug.Log("isNew");
+
                     //usedEquipmet[index].sprite = Resources.Load<Sprite>("sprite/" + names[index]);// LoadAll<Sprite>("sprite/equipment");
                     Sprite[] equip=Resources.LoadAll<Sprite>("sprite/equipment");
                     foreach (Sprite s in equip)
                         if (s.name.Equals(names[index]))
                             usedEquipmet[index].sprite = s;
                     //readInformation
-                    Debug.Log(":"+index);
+                    Debug.Log("usedEquipmet:" + index);
                     usedEquipmet[index].gameObject.GetComponent<Equipment>().readEquipmentInf();
                 }
             }
@@ -59,6 +60,61 @@ public class BagManager : MonoBehaviour {
     {
         Debug.Log("start");
 
+    }
+
+    /// <summary>
+    /// 点击已装备的装备显示此装备信息
+    /// </summary>
+    /// <param name="dic"></param>
+    public void showProperty(Dictionary<string, int> dic)
+    {
+        hideProperty();
+        wearedProperty.gameObject.transform.parent.gameObject.SetActive(true);
+        string text="";
+        foreach (KeyValuePair<string, int> kvp in dic)
+        {
+            if(kvp.Value!=0)
+               text += (kvp.Key + ":" + kvp.Value+"\n");
+        }
+        wearedProperty.text = text;
+    }
+
+
+    public void hideProperty()
+    {
+        wearedProperty.gameObject.transform.parent.gameObject.SetActive(false);
+        curProperty.gameObject.transform.parent.gameObject.SetActive(false);
+    }
+    /// <summary>
+    /// 点击储物格装备显示已装备信息与当前装备信息
+    /// </summary>
+    /// <param name="wear"></param>
+    /// <param name="cur"></param>
+    public void showProperty(Dictionary<string, int> wear, Dictionary<string, int> cur)
+    {
+        hideProperty();
+        string text = "";
+        if (wear.Count > 0)
+        {
+            wearedProperty.gameObject.transform.parent.gameObject.SetActive(true);
+            foreach (KeyValuePair<string, int> kvp in wear)
+            {
+                if (kvp.Value != 0)
+                    text += (kvp.Key + ":" + kvp.Value + "\n");
+            }
+            wearedProperty.text = text;
+        }
+        curProperty.gameObject.transform.parent.gameObject.SetActive(true);
+
+ 
+
+        text = "";
+        foreach (KeyValuePair<string, int> kvp in cur)
+        {
+            if (kvp.Value != 0)
+                text += (kvp.Key + ":" + kvp.Value + "\n");
+        }
+        curProperty.text = text;
     }
     /// <summary>
     /// 打开关闭背包
@@ -96,11 +152,11 @@ public class BagManager : MonoBehaviour {
             {
                 // GameObject.FindGameObjectWithTag("CELL").transform.Find("cell" + i).GetComponent<SpriteRenderer>().sprite = sprite;
                 //Sprite s= transform.Find("cell" + i).gameObject.GetComponent<SpriteRenderer>().sprite;
-                Debug.Log("cell " + i);
+
                 //设置图片并获取装备属性等信息
                 cellSprites[i].sprite = sprite;
                 cellSprites[i].gameObject.GetComponent<Equipment>().readEquipmentInf();
-                Debug.Log("" + i);
+
                 cell[i] = true; //表储物格被使用
 
                 information.Add(i, sprite.name);

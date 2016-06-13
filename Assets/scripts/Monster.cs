@@ -12,7 +12,8 @@ public class Monster : MonoBehaviour {
     public Text health;
     public Text attack;
     public Text armor;
-    public bool ignoreArmor;                  //穿透护甲                     
+    public bool ignoreArmor;                  //穿透护甲    
+    public GameObject treasure;                 
     // Use this for initialization
     void Start () {
         //attack.text = ""+attackValue;
@@ -100,7 +101,14 @@ public class Monster : MonoBehaviour {
     void Dead()
     {
         if (healthValue < 0)
+        {
+            if (Random.Range(0, 11) < 11)
+            {//获得奖励
+                GameObject obj = Instantiate(treasure, transform.position, transform.rotation) as GameObject;
+                obj.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下       
+            }
             Destroy(gameObject);
+        }
     }
     // Update is called once per frame
     void Update () {

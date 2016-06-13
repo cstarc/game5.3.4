@@ -1,5 +1,5 @@
 ﻿///
-//** 用来实现在背包中鼠标拖动装备
+//** 用来实现在背包中鼠标拖动装备，挂在每个可放格子的gameobject上，
 ///
 
 
@@ -12,25 +12,27 @@ using System.Collections.Generic;
 public class Equipment : MonoBehaviour {
 
     public Transform[] able; //可放置位置
-    public Transform wear; //穿戴位置
+    public Transform wear; //穿戴位置   swap
     //public Transform[] wears; //可放置位置
-    public int location; //位置
-    string equipmentName;
-    Vector3[] postion;
-    Vector3 wearPosition;   //wear位置
+    public int location; //格子位置
     float minDistance;
     Vector3 orignPosition;   //初始位置
-    int swapIndex;    //交换位置下标
+    Vector3[] postion;
+
+    public Vector3 wearPosition;   //wear位置  swap
+    string equipmentName;  //
     public Dictionary<string, int> information=new Dictionary<string, int>();    //存放装备属性  swap
-    int type;  //装备类型编号 swap
-    string typeName;  //装备类型名称  swap
+    //int type;  //装备类型编号 swap
+    
+    Hero hero;
     // Use this for initialization
     void Awake()
     {
-        Debug.Log("awake");
+
     }
     void Start () {
-        Debug.Log("start");
+
+        hero = GameObject.FindGameObjectWithTag("hero").GetComponent<Hero>();
         if (gameObject.GetComponent<SpriteRenderer>().sprite!=null)
             equipmentName = gameObject.GetComponent<SpriteRenderer>().sprite.name;
         minDistance = sqrt(able[0].position, able[1].position) * 0.5f;
@@ -60,7 +62,11 @@ public class Equipment : MonoBehaviour {
     IEnumerator OnMouseDown()
     {
         if (gameObject.GetComponent<SpriteRenderer>().sprite == null)
+        {
+            Debug.Log("null");
+            GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().hideProperty();
             yield break;
+        }
         var camera = Camera.main;
         if (camera)
         {
@@ -68,11 +74,11 @@ public class Equipment : MonoBehaviour {
             Vector3 screenPosition = camera.WorldToScreenPoint(transform.position);
 
             //鼠标屏幕坐标
-            Vector3 mScreenPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPosition.z);
+            Vector3 mScreenPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y,screenPosition.z);
 
             //获得鼠标和对象之间的偏移量,拖拽时相机应该保持不动
             Vector3 offset = transform.position - camera.ScreenToWorldPoint(mScreenPosition);
-            offset.z = offset.z - 30;
+            //offset.z = offset.z-30;  //for clearly see
 
             //若鼠标左键一直按着则循环继续  ,拖拽
             while (Input.GetMouseButton(0))
@@ -87,92 +93,144 @@ public class Equipment : MonoBehaviour {
                 yield return new WaitForEndOfFrame();
 
             }
-
+            //transform.position.= 30;
             //判断是否只是点击
+
             if (transform.position == orignPosition)
-                ;
-            //计算与物品最近的格子，并移动
-            postion[able.Length] = wearPosition;
-            float min = 2000;
-            for (int index = 0; index < postion.Length; index++)
+                if(location<0) //点击的是未装备的还是已装备的
+                    GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().showProperty(information);
+                else
+                    GameObject.FindGameObjectWithTag("BagManager").GetComponent<BagManager>().showProperty(
+                        wear.gameObject.GetComponent<Equipment>().information, information);
+            else
+                dragMoveing();
+        }
+
+    }
+
+    void showProperty()
+    {
+
+    }
+
+    /// <summary>
+    /// 拖拽完处理，通过交换数据来替换，或许可通过交换gameobject
+    /// </summary>
+    void dragMoveing()
+    {
+        int swapIndex=0;    //交换位置下标
+        //计算与物品最近的格子，并移动
+        postion[able.Length] = wearPosition;
+        float min = 20000;
+        for (int index = 0; index < postion.Length; index++)
+        {
+
+            float f = sqrt(transform.position, postion[index]);
+            if (f < min)
             {
-
-                float f = sqrt(transform.position, postion[index]);
-                if (f < min)
-                {
-                    min = f;
-                    swapIndex = index;
-                }
-
-               
+                min = f;
+                swapIndex = index;
             }
 
 
-            if (min < minDistance)
+        }
+
+
+        if (min < minDistance)
+        {
+
+            //判断是穿戴装备还是交换存储位置,swapIndex = able.Length时，为穿
+            Sprite temp;
+            //Vector3 tempPostion;
+            if (swapIndex != able.Length)
             {
+                //判断物品是否移动
+                if (able[swapIndex].position == orignPosition)
+                    return;
+
+
+                //交换位置
+               // tempPostion = able[swapIndex].position;
+                //able[swapIndex].position = orignPosition;
+                //transform.position = tempPostion;
+
+
                 
-                //判断是穿戴装备还是交换存储位置,swapIndex = able.Length时，为穿
-                Sprite temp;
-                if (swapIndex != able.Length)
+                //swap(able[swapIndex].GetComponent<SpriteRenderer>().sprite, ref able[swapIndex].GetComponent<Equipment>().information);
+                //交换
+                temp = able[swapIndex].GetComponent<SpriteRenderer>().sprite;
+                able[swapIndex].GetComponent<SpriteRenderer>().sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
+                gameObject.GetComponent<SpriteRenderer>().sprite = temp;
+
+               
+                Dictionary<string, int> tempDic = information;
+                information = able[swapIndex].GetComponent<Equipment>().information;
+                able[swapIndex].GetComponent<Equipment>().information = tempDic;
+                swapTransform(able[swapIndex]);
+                //Transform tempTransform = wear;
+               // wear = able[swapIndex].GetComponent<Equipment>().wear;
+                //able[swapIndex].GetComponent<Equipment>().wear=tempTransform;
+
+
+                //改变背包状态
+           
+                //脱下装备或只是交换存储位置
+                if (location >= 0)
                 {
-                    //判断物品是否移动
-                    if (able[swapIndex].position == orignPosition)
-                        yield break;
+                    BagManager.cell[location] = false;
+                    BagManager.information.Remove(location);
 
-                    //swap(able[swapIndex].GetComponent<SpriteRenderer>().sprite, ref able[swapIndex].GetComponent<Equipment>().information);
-                    //交换
-                    temp = able[swapIndex].GetComponent<SpriteRenderer>().sprite;
-                    able[swapIndex].GetComponent<SpriteRenderer>().sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
-                    gameObject.GetComponent<SpriteRenderer>().sprite = temp;
-
-                    Dictionary<string, int> tempDic = information;
-                    information = able[swapIndex].GetComponent<Equipment>().information;
-                    able[swapIndex].GetComponent<Equipment>().information = tempDic;
-                    //改变背包状态
-                   // BagManager.cell[location] = false;
-                    BagManager.cell[swapIndex] = true;
-                    //BagManager.information.Remove(location);
-                    BagManager.information.Add(swapIndex, able[swapIndex].GetComponent<SpriteRenderer>().sprite.name);
-
-                    //脱下装备或只是交换存储位置
-                    if (location >= 0)
-                    {
-                        BagManager.cell[location] = false;
-                        BagManager.information.Remove(location);
-                    }
-                    else
-                        Hero.updateProperty(tempDic, false);    //降低英雄属性
                 }
                 else
                 {
-                    //判断物品是否移动
-                    if (wear.position == orignPosition)
-                        yield break;
+                    //脱下装备
+                    BagManager.names[(location * (-1) - 1)] = null;
+                    hero.updateProperty(tempDic, false);    //降低英雄属性
+                }
+                // BagManager.cell[location] = false;
+                BagManager.cell[swapIndex] = true;
+                //BagManager.information.Remove(location);
+                BagManager.information.Add(swapIndex, able[swapIndex].GetComponent<SpriteRenderer>().sprite.name);
+
+
+            }
+            else
+            {
+                //判断物品是否移动
+                if (wear.position == orignPosition)
+                    return;
+
+                if (location >= 0)
+                {
                     //swap(wear.GetComponent<SpriteRenderer>().sprite, wear.GetComponent<Equipment>().information);
                     //穿上装备
                     temp = wear.GetComponent<SpriteRenderer>().sprite;
-                    wear.GetComponent<SpriteRenderer>().sprite= gameObject.GetComponent<SpriteRenderer>().sprite;
+                    wear.GetComponent<SpriteRenderer>().sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
                     gameObject.GetComponent<SpriteRenderer>().sprite = temp;
 
                     Dictionary<string, int> tempDic = information;
                     information = wear.GetComponent<Equipment>().information;
                     wear.GetComponent<Equipment>().information = tempDic;
+                    swapTransform(wear);
+                    //Transform tempTransform = wear;
+                    //wear = wear.GetComponent<Equipment>().wear;
+                    //wear.GetComponent<Equipment>().wear = tempTransform;
                     //改变背包状态
+                    Debug.Log("" + location);
                     BagManager.cell[location] = false;
                     BagManager.information.Remove(location);
-                    BagManager.names[type] = wear.GetComponent<SpriteRenderer>().sprite.name;
-                    if(temp!=null)
-                        Hero.updateProperty(information, false);     //降低英雄属性
-                    Hero.updateProperty(tempDic);     //增强英雄属性
+                    int wearLocation = wear.GetComponent<Equipment>().location;
+                    Debug.Log(wear.GetComponent<SpriteRenderer>().sprite.name);
+                    BagManager.names[(wearLocation * (-1) - 1)] = wear.GetComponent<SpriteRenderer>().sprite.name;
+                    if (temp != null)
+                        hero.updateProperty(information, false);     //降低英雄属性
+                    hero.updateProperty(tempDic);     //增强英雄属性
                 }
-              
             }
-            transform.position = orignPosition;
+
         }
-
+        transform.position = orignPosition;
     }
-
-
     /*void swap(ref Sprite s, ref Dictionary<string, int> dic)
     {
         //交换
@@ -191,6 +249,8 @@ public class Equipment : MonoBehaviour {
     /// 
     public void readEquipmentInf()
     {
+        if (information.Count > 0)
+            return;
         string appDBPath = Application.dataPath + "/mainDate.db";
         //--------------------------
 
@@ -199,18 +259,19 @@ public class Equipment : MonoBehaviour {
         
         string[] attributes = {"attack","health","armor","hitValue","dodgeValue"};
         DbAccess db = new DbAccess("Data Source=" + appDBPath);
-       
-        //
+
+        string typeName;  //装备类型名称 
         using (SqliteDataReader sqReader = db.ExecuteQuery("SELECT * FROM equipment WHERE name='" + equipmentName + "'"))
         {
             while (sqReader.Read())
             {
+      
                 //装备类型
                 typeName = sqReader.GetString(sqReader.GetOrdinal("type"));
-                Debug.Log("wear0" + wear.ToString()+ typeName);
-                wear = GameObject.FindGameObjectWithTag("HUD").transform.Find("bagInterface/equipment/"+ typeName+"base/"+ typeName); //+
+
+                wear = GameObject.FindGameObjectWithTag("HUD").transform.Find("bagInterface/equipment/wear/"+ typeName+"base/"+ typeName); //+
                
-                Debug.Log("wear"+ wear.ToString());
+
                 wearPosition = wear.position;//+
 
                 foreach (string attribute in attributes)
@@ -222,7 +283,15 @@ public class Equipment : MonoBehaviour {
         }
         db.CloseSqlConnection();
     }
-    
+    public void swapTransform(Transform dstT)
+    {
+        Transform tempTransform = wear;
+        wear = dstT.GetComponent<Equipment>().wear;
+        dstT.GetComponent<Equipment>().wear = tempTransform;
+        Vector3 tempPosition = wearPosition;
+        wearPosition = dstT.GetComponent<Equipment>().wearPosition;
+        dstT.GetComponent<Equipment>().wearPosition = tempPosition;
+    }
     Transform GetTransform(Transform check,string name)
     {
     foreach (Transform t in check.GetComponentsInChildren<Transform>())

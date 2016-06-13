@@ -55,8 +55,9 @@ public class Manager : MonoBehaviour {
     }
 
     //实例化并返回随机物体如怪物，血药等  for Turnup
-    public GameObject randomObject(Transform t,int loc,ref bool isBlock)
+    public GameObject randomObject(Transform t,int[] near,ref bool isBlock)
     {
+        int loc = near[0];
         GameObject others;
         //不同级别 不同怪物道具
         switch (level)
@@ -74,6 +75,7 @@ public class Manager : MonoBehaviour {
                         others = Instantiate(entry, t.position, t.rotation) as GameObject;
                         others.SetActive(false);
                         others.SetActive(true);
+                        others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下
                         return others;
                     }
                     int r = Random.Range(1, 11);
@@ -86,6 +88,9 @@ public class Manager : MonoBehaviour {
                             //isBlock = true;
                             others = Instantiate(monster[Random.Range(0, monster.Length)], t.position, t.rotation) as GameObject;
                             others.transform.parent = GameObject.FindGameObjectWithTag("manager").transform;  //挂在manager下，为了显示怪物属性
+
+                            //创建阻挡区
+
                             return others;
                         }
                         else   //为物品

@@ -135,7 +135,7 @@ public class TurnUp : MonoBehaviour
         // **判断是否不可前进即不可探索此块周边**
         //
         Manager manager = gameObject.GetComponentInParent<Manager>();
-        GameObject obj = manager.randomObject(transform, near[0],ref isblack);
+        GameObject obj = manager.randomObject(transform, near,ref isblack);
 
         fog.deleteFog(near, isblack);
 

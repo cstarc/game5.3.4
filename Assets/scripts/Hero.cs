@@ -35,6 +35,8 @@ public class Hero : MonoBehaviour {
     public SpriteRenderer heroPicture;
     public Sprite[] herosPicture;
     string curHeroName;
+    public Text attack;    //显示攻击力
+    public Text armor;    //显示护甲
     // Use this for initialization
     void Start () {
         // Hbar=gameObject.getGetComponentsInChildren<Hbar>
@@ -65,15 +67,45 @@ public class Hero : MonoBehaviour {
                 break;
             }
         }
-        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
-        MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  //加上崩溃
-        GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
+        updatePropertyValue();
+        //HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
+        //MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  //加上崩溃
+        //GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
     }
 
 
 
-    public static void updateProperty(Dictionary<string, int> dic,bool isAdd=true)
+    public void updateProperty(Dictionary<string, int> dic,bool isAdd=true)
     {
+        int sign = 1;
+
+        if (!isAdd)
+        { //脱下装备
+            sign = -1;  
+        }
+
+        //变更属性
+        foreach (KeyValuePair<string, int> kvp in dic)
+        {
+            switch (kvp.Key)
+            {
+                case "attack": attackValue += kvp.Value * sign; break;
+                case "health":
+                    {
+                        if(healthValue== maxHealthValue)
+                            healthValue += kvp.Value * sign;
+                        maxHealthValue += kvp.Value * sign;                        
+                    }
+                    break;
+                case "armor": armorValue += kvp.Value * sign; break;
+                case "hitValue": dodgeValue += kvp.Value * sign; break;
+                case "dodgeValue": hitValue += kvp.Value * sign; break;
+                default: break;
+            }
+
+        }
+
+        updatePropertyValue();
 
     }
     /// <summary>
@@ -235,9 +267,17 @@ public class Hero : MonoBehaviour {
             healthValue -= damage; //  dont consider defence*/
         return true;
     }
-    void updateBar(Sprite bar)
+
+    /// <summary>
+    /// 更新属性
+    /// </summary>
+    void updatePropertyValue()
     {
-        ;
+        attack.text = attackValue.ToString();
+        armor.text = armorValue.ToString();
+        HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
+        MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  //加上崩溃
+        GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
     }
 
     void Dead()
