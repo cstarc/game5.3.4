@@ -86,11 +86,12 @@ public class Manager : MonoBehaviour {
                         return others;
                     }
                     int r = Random.Range(1, 11);
-                    if (r <= 6)
+                    if (r <= 7)
                     {
                         others = Instantiate(smoke, t.position, t.rotation) as GameObject;
+                        Destroy(others, 2);
                         //播放音效
-                       // others.GetComponent<AudioSource>().Play();
+                        // others.GetComponent<AudioSource>().Play();
                         return others;
 
                     }

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 
 public class BagManager : MonoBehaviour {
+    public Image image;
     public SpriteRenderer spriteRenderer;   //用来打开关闭背包效果
     public Sprite[] sprite;         //打开关闭背包效果
     public SpriteRenderer[] cellSprites;       //储物格子
@@ -14,6 +15,7 @@ public class BagManager : MonoBehaviour {
     public static Dictionary<int, string> information = new Dictionary<int, string>();  //储物格中装备信息
     public Text wearedProperty; //已装备属性
     public Text curProperty;   //待装备属性
+    public Text[] heroPropery;   //英雄属性
     static bool isNew = true;
     bool active;   //背包是否打开
     int currentEquipment; //当前选中装备
@@ -125,7 +127,7 @@ public class BagManager : MonoBehaviour {
     /// <param name="cur"></param>
     public void showProperty(Dictionary<string, int> wear, Dictionary<string, int> cur,int location)
     {
-        currentEquipment = location;  //储物当前显示属性的装备位置
+        currentEquipment = location;  //储存当前显示属性的装备位置
         hideProperty();
         string text = "";
         if (wear.Count > 0)
@@ -150,6 +152,22 @@ public class BagManager : MonoBehaviour {
         }
         curProperty.text = text;
     }
+
+
+
+
+    /// <summary>
+    /// 显示英雄属性
+    /// </summary>
+    void showHeroProperty()
+    {
+        
+        heroPropery[0].text = "生命上限: " + Hero.maxHealthValue;
+        heroPropery[1].text = "魔力上限: " + Hero.maxMagicValue;
+        heroPropery[2].text = "灵魂上限: " + Hero.maxGhostValue;
+        heroPropery[3].text = "闪避率: " + Hero.dodgeValue;
+        heroPropery[4].text = "命中率: " + Hero.hitValue;
+    }
     /// <summary>
     /// 打开关闭背包
     /// </summary>
@@ -159,18 +177,21 @@ public class BagManager : MonoBehaviour {
         {
             gameObject.SetActive(true);
             active = true;
-            spriteRenderer.sprite = sprite[0];
-            floor = GameObject.FindGameObjectWithTag("manager");
-            if(floor!=null)
-              floor.SetActive(false);
+            image.sprite= sprite[0];   //use image
+            showHeroProperty();
+            //spriteRenderer.sprite = sprite[0];    //use sprite
+            //floor = GameObject.FindGameObjectWithTag("manager");
+            //if(floor!=null)
+            //  floor.SetActive(false);
         }
         else
         {
             gameObject.SetActive(false);
             active = false;
-            spriteRenderer.sprite = sprite[1];
-            if (floor != null)
-                floor.SetActive(true);
+            image.sprite = sprite[1];
+            //spriteRenderer.sprite = sprite[1];
+            //if (floor != null)
+            //    floor.SetActive(true);
         }
     }
 
@@ -202,7 +223,9 @@ public class BagManager : MonoBehaviour {
         }
     }
 
-
+    /// <summary>
+    /// 保存装备数据
+    /// </summary>
     public static void save()
     {
         //

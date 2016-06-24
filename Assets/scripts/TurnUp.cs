@@ -113,21 +113,7 @@ public class TurnUp : MonoBehaviour
     }
     void OnMouseDown()
     {
-        /*Debug.Log("event"+EventSystem.current.IsPointerOverGameObject());
-        *if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
-*#if IPHONE || ANDROID
-*			if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
-*#else
- *       if (!EventSystem.current.IsPointerOverGameObject())
-*#endif
-  *      {
-  *          Debug.Log(EventSystem.current.IsPointerOverGameObject());
-  *          return;
-  *      }
-            */
-
-                // Fog fog= gameObject.GetComponentInParent<Fog>();
-                Fog fog = gameObject.GetComponentInParent<Fog>();
+        Fog fog = gameObject.GetComponentInParent<Fog>();
         if (!fog.canDeleteFog(near[0]))  //点在black or white
             return;
 
@@ -138,19 +124,6 @@ public class TurnUp : MonoBehaviour
         GameObject obj = manager.randomObject(transform, near,ref isblack);
 
         fog.deleteFog(near, isblack);
-
-        
-       
-       /* if (obj == null)
-            Instantiate(smoke, transform.position, transform.rotation);
-        else
-        {
-            obj = Instantiate(obj, transform.position, transform.rotation) as GameObject;
-            obj.transform.parent = GameObject.Find("Canvas").transform;  //挂在画布下，为了显示怪物属性
-        }*/
-
-       
-
     }
 
     // Update is called once per frame

@@ -15,12 +15,13 @@ public class Hero : MonoBehaviour {
     public static int maxMagicValue=100;        //魔力上限
     public static int maxGhostValue=100;        //灵魂上限
     public static int armorValue=0;        //护甲值
-    public static int dodgeValue=0;        //闪避值
-    public static int hitValue=100;          //命中值
+    public static int dodgeValue=10;        //闪避值
+    public static int hitValue=80;          //命中值
                                          //public 
     public static int healthValue=100;       //生命值
     public static int magicValue=100;        //魔力值
     public static int ghostValue=0;        //灵魂值
+    public static bool ignoreArmor = false;
     //private int strength;         //力量
     //private int agility;          //敏捷
     //private int intelligence;     //智力
@@ -144,7 +145,7 @@ public class Hero : MonoBehaviour {
                 armorValue = sqReader.GetInt32(sqReader.GetOrdinal("armorValue"));
                 dodgeValue = sqReader.GetInt32(sqReader.GetOrdinal("dodgeValue"));
                 hitValue = sqReader.GetInt32(sqReader.GetOrdinal("hitValue"));
-  
+                Manager.level= sqReader.GetInt32(sqReader.GetOrdinal("level"));
 
                 //name = sqReader.GetString(sqReader.GetOrdinal("hero"));
             }
@@ -200,10 +201,10 @@ public class Hero : MonoBehaviour {
         //path = appDBPath;
 
         db.UpdateInto("status", new string[] { "maxHealth", "maxMagic", "maxGhost", "curHealth", "curMagic",
-            "curGhost","hero" , "armorValue", "dodgeValue", "hitValue" },
+            "curGhost","hero" , "armorValue", "dodgeValue", "hitValue" ,"level"},
             new string[] { maxHealthValue.ToString(), maxMagicValue.ToString(), maxGhostValue.ToString(),
                 healthValue.ToString(), magicValue.ToString(),ghostValue.ToString(),"'"+curHeroName+"'",
-                armorValue.ToString(),dodgeValue.ToString(),hitValue.ToString()},"rowid","1");
+                armorValue.ToString(),dodgeValue.ToString(),hitValue.ToString(),Manager.level.ToString()},"rowid","1");
 
         db.CloseSqlConnection();
     }
@@ -277,7 +278,7 @@ public class Hero : MonoBehaviour {
         attack.text = attackValue.ToString();
         armor.text = armorValue.ToString();
         HBar.updateBar(1 - (healthValue * 1.0f / maxHealthValue), healthValue);
-        MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  //加上崩溃
+        MBar.updateBar((magicValue * 1.0f / maxMagicValue), magicValue);  
         GBar.updateBar((ghostValue * 1.0f / maxGhostValue), ghostValue);
     }
 

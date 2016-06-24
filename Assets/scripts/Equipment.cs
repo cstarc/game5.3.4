@@ -147,7 +147,7 @@ public class Equipment : MonoBehaviour {
         if (min < minDistance)
         {
 
-            //判断是穿戴装备还是交换存储位置,swapIndex = able.Length时，为穿
+            //判断是穿戴装备还是交换存储位置
             Sprite temp;
             //Vector3 tempPostion;
             if (swapIndex != able.Length)
@@ -219,7 +219,7 @@ public class Equipment : MonoBehaviour {
                     Dictionary<string, int> tempDic = information;
                     information = wear.GetComponent<Equipment>().information;
                     wear.GetComponent<Equipment>().information = tempDic;
-                    swapTransform(wear);
+                    //
                     //Transform tempTransform = wear;
                     //wear = wear.GetComponent<Equipment>().wear;
                     //wear.GetComponent<Equipment>().wear = tempTransform;
@@ -233,11 +233,14 @@ public class Equipment : MonoBehaviour {
                     if (temp != null)
                         hero.updateProperty(information, false);     //降低英雄属性
                     hero.updateProperty(tempDic);     //增强英雄属性
+
+                    swapTransform(wear);  //交换wear；
                 }
             }
 
         }
         transform.position = orignPosition;
+        Debug.Log(orignPosition.ToString());
     }
     /*void swap(ref Sprite s, ref Dictionary<string, int> dic)
     {

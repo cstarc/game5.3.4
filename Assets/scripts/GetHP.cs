@@ -3,6 +3,7 @@ using System.Collections;
 
 public class GetHP : MonoBehaviour {
 
+    public AudioSource audioSource;
 	// Use this for initialization
 	void Start () {
 	

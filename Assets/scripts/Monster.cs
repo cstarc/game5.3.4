@@ -15,14 +15,16 @@ public class Monster : MonoBehaviour {
     public bool ignoreArmor;                  //穿透护甲    
     public GameObject treasure;
     bool hasArmor;   
-    public bool isBoss;         
+    public bool isBoss;
+    public GameObject  hitMonster;
+    public GameObject unHit;       
     // Use this for initialization
     void Start () {
         hasArmor = true;
         //attack.text = ""+attackValue;
         //health.text = "" + healthValue;
         updateStatus();
-
+        
     }
 
     /// <summary>
@@ -85,14 +87,24 @@ public class Monster : MonoBehaviour {
         int random = Random.Range(1, 101);
         if (random > hit)
         {
+            if (unHit != null)
+            {
+                GameObject go = Instantiate(unHit, transform.position, transform.rotation) as GameObject;
+                Destroy(go, 0.2f);
+            }
             //dont hit
             return;
+        }
+        if (hitMonster != null)
+        {//伤害效果显示
+            GameObject go = Instantiate(hitMonster, transform.position, transform.rotation) as GameObject;
+            Destroy(go, 0.2f);
         }
 
         /*自身受到伤害  无抗性处理，无护甲穿透*/
 
         //当为物理攻击不穿透护甲，护甲会随攻击减少
-        if (!ignoreArmor&&armorValue != 0)
+        if (!Hero.ignoreArmor&&armorValue != 0)
         {
             int damage = armorValue - hero.getAttackValue();
             if (damage > 0)

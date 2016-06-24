@@ -38,6 +38,12 @@ public class SpriteBar : MonoBehaviour {
     void Start () {
  
     }
+
+    /// <summary>
+    /// 根据状态条百分比value，及具体值更新显示状态条
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="v"></param>
     public void updateBar( float value,int v)
     {
         barValue.text = ""+v; //更新bar的值

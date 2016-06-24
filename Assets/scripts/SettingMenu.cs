@@ -37,7 +37,7 @@ public class SettingMenu : MonoBehaviour {
             info = animator.GetCurrentAnimatorStateInfo(0);
             if (info.normalizedTime >= 1.0f)
             {
-                SceneManager.LoadScene("choic");
+                SceneManager.LoadScene("start");
             }
 
         }

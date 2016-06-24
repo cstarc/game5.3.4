@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ac51008993855e64c9c00478e680f7bd
-timeCreated: 1462531251
+timeCreated: 1465912246
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -3036,7 +3036,7 @@ TextureImporter:
     - name: 'frame_animation #1219_213'
       rect:
         serializedVersion: 2
-        x: 890
+        x: 891
         y: 574
         width: 109
         height: 148
@@ -3045,13 +3045,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -54.5, y: 74}
-        - {x: -54.5, y: 27}
-        - {x: -33.5, y: -50}
-        - {x: 0.5, y: -74}
-        - {x: 53.5, y: -74}
-        - {x: 54.5, y: -70}
-        - {x: 54.5, y: -22}
-        - {x: -36.5, y: 74}
+        - {x: -54.5, y: -16}
+        - {x: -47.5, y: -60}
+        - {x: -11.5, y: -74}
+        - {x: 54.5, y: -74}
+        - {x: 54.5, y: -20}
+        - {x: -18.5, y: 74}
     - name: 'frame_animation #1219_217'
       rect:
         serializedVersion: 2

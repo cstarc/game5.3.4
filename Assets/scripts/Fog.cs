@@ -30,6 +30,12 @@ public class Fog : MonoBehaviour {
 
         initalize();
     }
+
+    /// <summary>
+    /// 判断index处是否有雾
+    /// </summary>
+    /// <param name="index"></param>
+    /// <returns></returns>
     public bool hasFog(int index)
     {
 

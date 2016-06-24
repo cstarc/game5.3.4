@@ -10,23 +10,22 @@ public class treasureMansger : MonoBehaviour {
     static GameObject currentTreasure;  //当前打开宝箱 
     // Use this for initialization
     void Start () {
-	
-	}
+       
+    }
     public static void setCurTreasure(GameObject g)
     {
         currentTreasure = g;
     }
     /// <summary>
-    /// 当激活时随机获得装备
+    /// 由于只有一个界面，点击不同宝箱设置显示不同装备
     /// </summary>
-    void OnEnable()
+    public void show(Sprite s)
     {
-        Sprite[] equipments = Resources.LoadAll<Sprite>("sprite/equipment");
-        equipment.sprite = equipments[Random.Range(0,equipments.Length)];
-        description.text = equipment.sprite.name;
-
+        gameObject.SetActive(true);
+        equipment.sprite = s;
+        description.text = s.name;
     }
-    
+
     /// <summary>
     /// 响应面板中的cancel键
     /// </summary>
@@ -34,7 +33,8 @@ public class treasureMansger : MonoBehaviour {
     {
         
         gameObject.SetActive(false);
-        Destroy(currentTreasure);
+
+       // Destroy(currentTreasure);
        // GameObject.FindGameObjectWithTag("manager").transform.Find("grayMask").gameObject.SetActive(false);
     }
     /// <summary>
